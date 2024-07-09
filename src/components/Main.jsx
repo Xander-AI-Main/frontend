@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../css/main.module.css'
-import AI from '../assets/images/Group 11.png'
+import AI from '../assets/images/ai.png'
 
 export default function Main() {
     return (
@@ -34,9 +34,9 @@ export default function Main() {
                             Explore now
                         </div>
                     </div>
-                    <div className={styles.main__image}>
-                        <img src={AI} alt="" />
+                    <div className={styles.main__image__bg}>
                     </div>
+                    <img src={AI} alt="" className={styles.main__image}/>
                 </div>
             </div>
         </div>
