@@ -25,7 +25,7 @@ export default function Main() {
                     <div className={styles.main__text}>
                         <div className={styles.upper__text}>
                             Focus on Goals, Not the
-                            <span className={styles.gradient}>Tech</span>
+                            <span className={styles.gradient}>Tech!</span>
                         </div>
                         <div className={styles.lower__text}>
                             Say goodbye to technical headaches – from data preprocessing to model deployment, we automate everything. No tech skills? No problem. Embrace the future of AI with simplicity and ease.

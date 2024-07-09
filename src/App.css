@@ -14,3 +14,7 @@
 body {
   background: #01021b;
 }
+
+.App {
+  overflow-x: hidden;
+}

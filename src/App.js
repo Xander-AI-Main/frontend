@@ -15,7 +15,6 @@ function App() {
       <Prices />
       <Quotes />
       <OurStory />
-      <Services />
       <Footer />
     </div>
   );

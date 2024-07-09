@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__header {
+    color: rgba(253, 210, 210, 0.60);
+    font-family: 'Brockmann';
+    font-size: 1.35rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.sub__header {
+    font-family: 'Brockmann';
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 500;
+    background: linear-gradient(180deg, #F77676 0%, #3135F7 149.48%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 1rem;
+}
+
+.services__header {
+    color: rgb(255 255 255 / 61%);
+    font-family: 'Brockmann';
+    font-size: 1.1rem;
+    padding: 0.75rem 1.4rem;
+    border-radius: 50px;
+    border: 0.5px solid #828282;
+    background: linear-gradient(90deg, rgba(247, 118, 118, 0.10) 0%, rgba(49, 53, 247, 0.10) 100%);
+    box-shadow: 0px 0px 12.3px -1px rgba(247, 118, 118, 0.30) inset;
+    width: 23%;
+    margin-top: 3rem;
+}
+
+.all__services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 71%;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.current__service__non__bg {
+    border-radius: 26px;
+    background: rgba(217, 217, 217, 0.17);
+    backdrop-filter: blur(44.09600067138672px);
+    width: 15.5rem;
+    height: 43vh;
+    margin-bottom: 5.3rem;
+    margin-right: 4rem;
+}
+
+.current__service__bg {
+    border-radius: 26px;
+    background: rgba(217, 217, 217, 0.17);
+    backdrop-filter: blur(44.09600067138672px);
+    margin-top: 3rem;
+    width: 15.5rem;
+    height: 43vh;
+    margin-bottom: 5.3rem;
+    margin-right: 4rem;
+}
+
+.actual__bg {
+    /* height: 20vh;
+    position: absolute;
+    width: 16rem;
+    background: linear-gradient(176deg, #F77676 32.96%, #3135F7 132.99%);
+    filter: blur(100px);
+    margin-top: 4rem; */
+    height: 70vh;
+    position: absolute;
+    width: 16rem;
+    background: linear-gradient(176deg, #F77676 32.96%, #3135F7 132.99%);
+    filter: blur(170px);
+    margin-top: 12rem;
+}
