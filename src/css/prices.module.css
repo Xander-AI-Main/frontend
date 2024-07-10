@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 87%;
+  margin: 3rem auto 0rem auto;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__text {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Brockmann";
+  font-size: 20px;
+}
+
+.begin__line {
+    width: 35%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #999 100%);
+}
+
+.end__line {
+    width: 35%;
+    height: 2px;
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 0.00) 0%, #999 100%);
+}
+
+.gradient {
+    font-family: 'Brockmann';
+    font-size: 3.1rem;
+    font-style: normal;
+    font-weight: 500;
+    background: linear-gradient(92deg, #F77676 -8.8%, #3135F7 52.42%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 1rem;
+}
+
+.upper__text {
+    font-family: 'Brockmann';
+    font-size: 3.1rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 3.1rem;
+}
+
+.lower__text {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: "Gilmer Light";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.box {
+    width: 100%;
+    height: 26vh;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 48.6px -48.6px 48.6px 0px rgba(32, 32, 32, 0.10) inset, -48.6px 48.6px 48.6px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(48.599998474121094px);
+    margin-top: 2.8rem;
+}
+
+.right__shadow {
+    background: linear-gradient(169deg, rgba(247, 118, 118, 0.30) -30.98%, rgba(49, 53, 247, 0.30) 120.94%);
+    filter: blur(120px);
+    width: 30%;
+    height: 26vh;
+    position: absolute;
+}
+
+.left__shadow {
+    background: linear-gradient(169deg, rgba(247, 118, 118, 0.30) -30.98%, rgba(49, 53, 247, 0.30) 120.94%);
+    filter: blur(120px);
+    width: 30%;
+    height: 26vh;
+    position: absolute;
+    right: 0;
+}

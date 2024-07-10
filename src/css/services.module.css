@@ -78,6 +78,7 @@
     position: absolute;
     width: 16rem;
     background: linear-gradient(176deg, #F77676 32.96%, #3135F7 132.99%);
-    filter: blur(170px);
+    /* filter: blur(240px); */
+    filter: blur(8110px);
     margin-top: 12rem;
 }

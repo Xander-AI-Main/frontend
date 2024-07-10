@@ -150,9 +150,9 @@
 
 .main__image{
   position: relative;
-  top: 2rem;
-  width: 40.2vw;
-  height: 85.2vh;
+  top: 4rem;
+  width: 37.2vw;
+  height: 79.2vh;
   object-fit: cover;
 }
 
