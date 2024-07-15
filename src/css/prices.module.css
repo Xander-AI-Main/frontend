@@ -7,10 +7,10 @@
 }
 
 .header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__text {
@@ -20,72 +20,188 @@
 }
 
 .begin__line {
-    width: 35%;
-    height: 2px;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #999 100%);
+  width: 35%;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #999 100%);
 }
 
 .end__line {
-    width: 35%;
-    height: 2px;
-    background: linear-gradient(-90deg, rgba(255, 255, 255, 0.00) 0%, #999 100%);
+  width: 35%;
+  height: 2px;
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, #999 100%);
 }
 
 .gradient {
-    font-family: 'Brockmann';
-    font-size: 3.1rem;
-    font-style: normal;
-    font-weight: 500;
-    background: linear-gradient(92deg, #F77676 -8.8%, #3135F7 52.42%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-right: 1rem;
+  font-family: "Brockmann";
+  font-size: 3.1rem;
+  font-style: normal;
+  font-weight: 500;
+  background: linear-gradient(92deg, #f77676 -8.8%, #3135f7 52.42%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 1rem;
 }
 
 .upper__text {
-    font-family: 'Brockmann';
-    font-size: 3.1rem;
-    font-style: normal;
-    font-weight: 500;
-    color: #fff;
-    margin-top: 3.1rem;
+  font-family: "Brockmann";
+  font-size: 3.1rem;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 3.1rem;
 }
 
 .lower__text {
-    color: rgba(255, 255, 255, 0.50);
-    text-align: center;
-    font-family: "Gilmer Light";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px; 
-    width: 60%;
-    margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: "Gilmer Light";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 60%;
+  margin-top: 1rem;
 }
 
 .box {
-    width: 100%;
-    height: 26vh;
-    background: rgba(255, 255, 255, 0.10);
-    box-shadow: 48.6px -48.6px 48.6px 0px rgba(32, 32, 32, 0.10) inset, -48.6px 48.6px 48.6px 0px rgba(255, 255, 255, 0.10) inset;
-    backdrop-filter: blur(48.599998474121094px);
-    margin-top: 2.8rem;
+  width: 100%;
+  height: 26vh;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 48.6px -48.6px 48.6px 0px rgba(32, 32, 32, 0.1) inset,
+    -48.6px 48.6px 48.6px 0px rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(48.599998474121094px);
+  margin-top: 2.8rem;
 }
 
 .right__shadow {
-    background: linear-gradient(169deg, rgba(247, 118, 118, 0.30) -30.98%, rgba(49, 53, 247, 0.30) 120.94%);
-    filter: blur(120px);
-    width: 30%;
-    height: 26vh;
-    position: absolute;
+  background: linear-gradient(
+    169deg,
+    rgba(247, 118, 118, 0.3) -30.98%,
+    rgba(49, 53, 247, 0.3) 120.94%
+  );
+  filter: blur(120px);
+  width: 48%;
+  height: 39vh;
+  position: absolute;
 }
 
 .left__shadow {
-    background: linear-gradient(169deg, rgba(247, 118, 118, 0.30) -30.98%, rgba(49, 53, 247, 0.30) 120.94%);
-    filter: blur(120px);
-    width: 30%;
-    height: 26vh;
-    position: absolute;
-    right: 0;
+  background: linear-gradient(
+    169deg,
+    rgba(247, 118, 118, 0.3) -30.98%,
+    rgba(49, 53, 247, 0.3) 120.94%
+  );
+  filter: blur(120px);
+  width: 48%;
+  height: 39vh;
+  position: absolute;
+  right: 0;
+}
+
+.main__pricing {
+  display: flex;
+  width: 87%;
+  justify-content: space-between;
+  height: 52.5vh;
+  margin-top: 7rem;
+  background: linear-gradient(rgba(1, 2, 27, 0.97), rgba(1, 2, 27, 0.97)), 
+                url('../assets/images/bg_circular_lines.png');
+  background-size: cover; 
+  background-position: center;
+  background-size: cover;
+  background-position: center 48rem;
+}
+
+.left__tier {
+  display: flex;
+  height: 77%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.right__tier {
+  display: flex;
+  height: 77%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.element {
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    #fff -95.94%,
+    rgba(153, 153, 153, 0) 128.04%
+  );
+  width: 16rem;
+  height: 7vh;
+}
+
+.left__bottom__element {
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    #fff -95.94%,
+    rgba(153, 153, 153, 0) 128.04%
+  );
+  width: 16rem;
+  height: 7vh;
+  position: relative;
+  left: -2.5rem;
+}
+
+.right__bottom__element {
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    #fff -95.94%,
+    rgba(153, 153, 153, 0) 128.04%
+  );
+  width: 16rem;
+  height: 7vh;
+  position: relative;
+  left: 2.5rem;
+}
+
+.middle__gradient {
+  font-family: "Brockmann";
+  font-size: 2.9rem;
+  font-style: normal;
+  font-weight: 500;
+  background: linear-gradient(90deg, #f77676 32.06%, #3135f7 93.44%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 1rem;
+}
+
+.middle__upper__text {
+  font-family: "Brockmann";
+  font-size: 2.9rem;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 3.1rem;
+}
+
+.middle__tier {
+  width: 31rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 2rem;
+  height: 92%;
+}
+
+.below__text {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: "Gilmer Light";
+  font-size: 17px;
+  position: relative;
+  top: -0.35rem;
 }

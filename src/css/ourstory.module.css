@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container {
+  display: flex;
+  width: 78%;
+  flex-direction: column;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+  margin-left: 8rem;
+}
+
+.title {
+  color: #fff;
+  font-family: "Brockmann";
+  font-size: 3.4rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.our__story {
+  width: 100%;
+  height: 14rem;
+  border-radius: 0px 60px 70px 0px;
+  background: rgba(217, 217, 217, 0.1);
+  box-shadow: 0px 0px 44.867px 0px rgba(165, 165, 165, 0.1) inset,
+    0px 0px 44.867px 0px rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(44.86666488647461px);
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.our__story > span {
+  width: 65%;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.15rem;
+  word-break: break-word;
+  display: flex;
+  padding: 1.1rem 1.6rem;
+}
+
+.outer__round__thing {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 100rem;
+  background: radial-gradient(
+    179.55% 179.55% at 108.69% 87.23%,
+    #f77676 0%,
+    #3135f7 100%
+  );
+  filter: blur(9.300000190734863px);
+  position: absolute;
+  right: -0.6rem;
+  z-index: 2;
+}
+
+.inner__round__thing {
+  height: 16.5rem;
+  width: 16.5rem;
+  border-radius: 100rem;
+  background: white;
+  position: relative;
+  right: 0;
+  z-index: 3;
+}
+
+.entire__thing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 2rem;
+}
+
+.inner__round__thing > span {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 18.9px;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    transform-origin: 0px 118px;
+    transform: rotate(calc(var(--rotate)* 1deg)) translateX(-50%);
+    margin-left: 8.3rem;
+    margin-top: 0.9rem;
+}
+
+.inner__round__thing span:nth-child(1)  { --rotate: calc(360 / 39 * 0); }
+.inner__round__thing span:nth-child(2)  { --rotate: calc(360 / 39 * 1); }
+.inner__round__thing span:nth-child(3)  { --rotate: calc(360 / 39 * 2); }
+.inner__round__thing span:nth-child(4)  { --rotate: calc(360 / 39 * 3); }
+.inner__round__thing span:nth-child(5)  { --rotate: calc(360 / 39 * 4); }
+.inner__round__thing span:nth-child(6)  { --rotate: calc(360 / 39 * 5); }
+.inner__round__thing span:nth-child(7)  { --rotate: calc(360 / 39 * 6); }
+.inner__round__thing span:nth-child(8)  { --rotate: calc(360 / 39 * 7); }
+.inner__round__thing span:nth-child(9)  { --rotate: calc(360 / 39 * 8); }
+.inner__round__thing span:nth-child(10) { --rotate: calc(360 / 39 * 9); }
+.inner__round__thing span:nth-child(11) { --rotate: calc(360 / 39 * 10); }
+.inner__round__thing span:nth-child(12) { --rotate: calc(360 / 39 * 11); }
+.inner__round__thing span:nth-child(13) { --rotate: calc(360 / 39 * 12); }
+.inner__round__thing span:nth-child(14) { --rotate: calc(360 / 39 * 13); }
+.inner__round__thing span:nth-child(15) { --rotate: calc(360 / 39 * 14); }
+.inner__round__thing span:nth-child(16) { --rotate: calc(360 / 39 * 15); }
+.inner__round__thing span:nth-child(17) { --rotate: calc(360 / 39 * 16); }
+.inner__round__thing span:nth-child(18) { --rotate: calc(360 / 39 * 17); }
+.inner__round__thing span:nth-child(19) { --rotate: calc(360 / 39 * 18); }
+.inner__round__thing span:nth-child(20) { --rotate: calc(360 / 39 * 19); }
+.inner__round__thing span:nth-child(21) { --rotate: calc(360 / 39 * 20); }
+.inner__round__thing span:nth-child(22) { --rotate: calc(360 / 39 * 21); }
+.inner__round__thing span:nth-child(23) { --rotate: calc(360 / 39 * 22); }
+.inner__round__thing span:nth-child(24) { --rotate: calc(360 / 39 * 23); }
+.inner__round__thing span:nth-child(25) { --rotate: calc(360 / 39 * 24); }
+.inner__round__thing span:nth-child(26) { --rotate: calc(360 / 39 * 25); }
+.inner__round__thing span:nth-child(27) { --rotate: calc(360 / 39 * 26); }
+.inner__round__thing span:nth-child(28) { --rotate: calc(360 / 39 * 27); }
+.inner__round__thing span:nth-child(29) { --rotate: calc(360 / 39 * 28); }
+.inner__round__thing span:nth-child(30) { --rotate: calc(360 / 39 * 29); }
+.inner__round__thing span:nth-child(31) { --rotate: calc(360 / 39 * 30); }
+.inner__round__thing span:nth-child(32) { --rotate: calc(360 / 39 * 31); }
+.inner__round__thing span:nth-child(33) { --rotate: calc(360 / 39 * 32); }
+.inner__round__thing span:nth-child(34) { --rotate: calc(360 / 39 * 33); }
+.inner__round__thing span:nth-child(35) { --rotate: calc(360 / 39 * 34); }
+.inner__round__thing span:nth-child(36) { --rotate: calc(360 / 39 * 35); }
+.inner__round__thing span:nth-child(37) { --rotate: calc(360 / 39 * 36); }
+.inner__round__thing span:nth-child(38) { --rotate: calc(360 / 39 * 37); }
+.inner__round__thing span:nth-child(39) { --rotate: calc(360 / 39 * 38); }

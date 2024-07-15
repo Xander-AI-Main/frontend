@@ -20,6 +20,27 @@ export default function Prices() {
         <div className={styles.right__shadow}></div>
         <div className={styles.left__shadow}></div>
       </div>
+      <div className={styles.main__pricing}>
+        <div className={styles.left__tier}>
+          <div className={styles.element}></div>
+          <div className={styles.left__bottom__element}></div>
+        </div>
+        <div className={styles.middle__tier}>
+          <div className={styles.middle__upper__text}>
+            Power your Projects with
+            <span className={styles.middle__gradient}> AI Data Model </span>
+            Plans
+          </div>
+          <div className={styles.below__text}>
+            We offer curated options for simplicity, flexibility, and comprehensive coverage. Choose your perfect Plan today!
+          </div>
+          <div className={styles.element}></div>
+        </div>
+        <div className={styles.right__tier}>
+          <div className={styles.element}></div>
+          <div className={styles.right__bottom__element}></div>
+        </div>
+      </div>
     </div>
   )
 }
