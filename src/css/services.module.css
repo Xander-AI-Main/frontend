@@ -22,12 +22,16 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 1rem;
+
+    @media screen and (max-width:768px) {
+        font-size: 2rem;
+      }
 }
 
 .services__header {
     color: rgb(255 255 255 / 61%);
     font-family: 'Brockmann';
-    font-size: 1.1rem;
+    font-size: 30px;
     padding: 0.75rem 1.4rem;
     border-radius: 50px;
     border: 0.5px solid #828282;
@@ -35,7 +39,16 @@
     box-shadow: 0px 0px 12.3px -1px rgba(247, 118, 118, 0.30) inset;
     width: 23%;
     margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width:768px) {
+        margin-top: 2rem;
+        font-size: 20px;
+      }
 }
+
 
 .all__services {
     display: flex;

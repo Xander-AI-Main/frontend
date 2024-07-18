@@ -46,14 +46,19 @@
   justify-content: space-between;
   height: 4rem;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto;  
 }
+
 
 .normal {
   font-family: "Brockmann", sans-serif;
   font-size: 17px;
   color: #fff;
   cursor: pointer;
+  
+  @media screen and (max-width:768px){
+    display: none;
+    }
 }
 
 .all__stylish {
@@ -61,6 +66,10 @@
     width: 21%;
     display: flex;
     justify-content: center;
+ 
+  @media screen and (max-width:768px){
+    width: 100%;
+  }
 }
 
 .stylish {
@@ -106,7 +115,7 @@
   justify-content: space-between;
 }
 
-.grad {
+.gradient {
   font-family: "Brockmann";
   font-size: 75px;
   color: linear-gradient(90deg, #f77676 50.08%, #3135f7 78.13%);
@@ -116,6 +125,16 @@
   font-family: "Brockmann";
   color: white;
   font-size: 65px;
+
+  @media screen and (max-width:768px) {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width:475px) {
+    font-size: 30px;
+  }
+
+
 }
 
 .upper__text .gradient {
@@ -125,12 +144,28 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-left: 0.4rem;
+
+  @media screen and (max-width:768px) {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width:475px) {
+    font-size: 30px;
+  }
 }
 
 .lower__text {
   font-family: "Gilmer Light";
   font-size: 20px;
   color: #fff;
+
+  @media screen and (max-width:768px) {
+    font-size: 17px;
+  }
+
+  @media screen and (max-width:475px) {
+    font-size: 15px;
+  }
 }
 
 .main__image__bg {
@@ -154,6 +189,19 @@
   width: 37.2vw;
   height: 79.2vh;
   object-fit: cover;
+
+  @media screen and (max-width: 768px){
+    top:10rem;
+    height:40.2vh;
+    width: 50.2vw;
+  }
+
+  @media screen and (max-width:475px){
+    height: 30.2vh;
+    width: 45.2vw;
+    top: 1rem;
+    right: 28%;
+  }
 }
 
 .main__text {
@@ -164,6 +212,20 @@
   margin-top: 7rem;
   height: 56vh;
   width: 40%;
+  position: relative;
+  flex-wrap: nowrap;
+
+  @media screen and (max-width: 768px){
+   margin-left: 2rem;
+   width: 59%;
+   margin-top: 9rem;
+  }
+
+  @media screen and (max-width:475px){
+    margin-top: 19rem;
+    height: 40vh;
+    left: 4rem;
+  }
 }
 
 .explore__now {
@@ -182,4 +244,15 @@
   margin-top: 1rem;
   cursor: pointer;
   z-index: 3;
+
+  @media screen and (max-width: 768px){
+width: 77%;
+  }
+
+  @media  screen and (max-width:475px) {
+    width: 80%;
+    font-size: 18px;
+    position: relative;
+    right: 15px;
+  }
 }

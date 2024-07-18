@@ -38,7 +38,7 @@ export default function Services() {
     <div className={styles.container}>
       <span className={styles.main__header}>AI - Powered</span>
       <span className={styles.sub__header}>Models at your fingertips</span>
-      <div className={styles.services__header}>Services</div>
+      <div className={styles.services__header}><span className={styles.services__text}>Services</span></div>
       <div className={styles.all__services}>
         {
           services.map((item, index) => {
