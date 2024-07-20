@@ -15,6 +15,11 @@
   font-size: 3.4rem;
   font-style: normal;
   font-weight: 500;
+  
+  @media screen and (max-width:480px) {
+    position: relative;
+    right: 2.5rem;
+  }
 }
 
 .our__story {
@@ -35,7 +40,11 @@
     right:23%;
     width: 112%;
   }
-
+  
+  @media screen and (max-width:480px){
+    right: 35%;
+    width: 120%;
+  }
 }
 
 .our__story > span {
@@ -50,7 +59,10 @@
 
   @media screen and (max-width:768px) {
     font-size: 10.5px;
-    
+  }
+  
+  @media screen and (max-width:480px){
+   font-size: 11px;
   }
 }
 
@@ -95,6 +107,10 @@
   justify-content: center;
   position: relative;
   left: 2rem;
+
+  @media screen and (max-width:480px){
+    display: none;
+  }
 }
 
 .inner__round__thing > span {
