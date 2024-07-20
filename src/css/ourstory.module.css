@@ -29,6 +29,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width:768px){
+    position: relative;
+    right:23%;
+    width: 112%;
+  }
+
 }
 
 .our__story > span {
@@ -40,6 +47,11 @@
   word-break: break-word;
   display: flex;
   padding: 1.1rem 1.6rem;
+
+  @media screen and (max-width:768px) {
+    font-size: 10.5px;
+    
+  }
 }
 
 .outer__round__thing {
@@ -55,6 +67,11 @@
   position: absolute;
   right: -0.6rem;
   z-index: 2;
+
+  @media screen and (max-width:768px){
+  height: 14rem;
+  width: 14rem;
+  }
 }
 
 .inner__round__thing {
@@ -65,6 +82,11 @@
   position: relative;
   right: 0;
   z-index: 3;
+
+  @media  screen and (max-width:768px) {
+    height: 13rem;
+    width: 13rem;
+  }
 }
 
 .entire__thing {
@@ -86,6 +108,12 @@
     transform: rotate(calc(var(--rotate)* 1deg)) translateX(-50%);
     margin-left: 8.3rem;
     margin-top: 0.9rem;
+
+    @media screen and (max-width:768px) {
+      margin-left: 6.5rem;
+      margin-top: 0.2rem;
+      transform-origin: 0px 105px;
+    }
 }
 
 .inner__round__thing span:nth-child(1)  { --rotate: calc(360 / 39 * 0); }

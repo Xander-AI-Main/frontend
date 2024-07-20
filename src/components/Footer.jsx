@@ -7,6 +7,7 @@ export default function Footer() {
     <div className={styles.main_footer}>
  <footer className={styles.footer}>
       <div className={styles.footer_content}>
+        <div className={styles.footer_innercontent}>
         <div className={styles.footer_section}>
           <a href="#about">ABOUT</a>
           <a href="#services">SERVICES</a>
@@ -19,8 +20,9 @@ export default function Footer() {
           <a href="#conditions">CONDITIONS</a>
           <a href="#licenses">LICENSES</a>
         </div>
+        </div>
         <div className={styles.social_section}>
-          <span>SOCIALIZE WITH ZENDER</span>
+          <span>SOCIALIZE WITH XANDER</span>
           <div className={styles.social_icons}>
             <a href="https://www.facebook.com" className={styles.social_icon}><i className="fab fa-facebook-f"></i></a>
             <a href="https://www.twitter.com" className={styles.social_icon}><i className="fab fa-twitter"></i></a>
@@ -31,7 +33,7 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.footer_bottom}>
-        <p>2024 &copy; ZENDER & CO. - BY LOREM IPSUM - ALL RIGHTS RESERVED</p>
+        <p>2024 &copy; XANDER & CO. - BY LOREM IPSUM - ALL RIGHTS RESERVED</p>
       </div>
     </footer>
     </div>

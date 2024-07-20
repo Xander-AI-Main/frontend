@@ -17,6 +17,11 @@
   color: rgba(255, 255, 255, 0.8);
   font-family: "Brockmann";
   font-size: 20px;
+
+  @media screen and (max-width: 768px) {
+    position: relative;
+    left: 7%;
+  }
 }
 
 .begin__line {
@@ -41,6 +46,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-right: 1rem;
+
+  @media screen and (max-width: 450px) {
+    position: relative;
+    font-size: 2rem;
+  }
 }
 
 .upper__text {
@@ -50,6 +60,12 @@
   font-weight: 500;
   color: #fff;
   margin-top: 3.1rem;
+
+  @media screen and (max-width: 450px) {
+    position: relative;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
 }
 
 .lower__text {
@@ -105,9 +121,9 @@
   justify-content: space-between;
   height: 52.5vh;
   margin-top: 7rem;
-  background: linear-gradient(rgba(1, 2, 27, 0.97), rgba(1, 2, 27, 0.97)), 
-                url('../assets/images/bg_circular_lines.png');
-  background-size: cover; 
+  background: linear-gradient(rgba(1, 2, 27, 0.97), rgba(1, 2, 27, 0.97)),
+    url("../assets/images/bg_circular_lines.png");
+  background-size: cover;
   background-position: center;
   background-size: cover;
   background-position: center 48rem;
@@ -118,6 +134,15 @@
   height: 77%;
   justify-content: space-between;
   flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    position: relative;
+    right: 1.2rem;
+  }
+
+  @media screen and (max-width:450px){
+    right: 0.5rem;
+   }
 }
 
 .right__tier {
@@ -125,6 +150,15 @@
   height: 77%;
   justify-content: space-between;
   flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    position: relative;
+    right: 10rem;
+  }
+
+  @media screen and (max-width:450px){
+   right: 7rem;
+  }
 }
 
 .element {
@@ -136,6 +170,19 @@
   );
   width: 16rem;
   height: 7vh;
+
+  @media screen and (max-width: 768px) {
+    height: 5vh;
+    width: 12rem;
+    position: relative;
+    top: 20px;
+  }
+
+  @media screen and (max-width:450px){
+    height: 4vh;
+    width: 9rem;
+    top: 15px;
+  }
 }
 
 .left__bottom__element {
@@ -149,6 +196,17 @@
   height: 7vh;
   position: relative;
   left: -2.5rem;
+
+  @media screen and (max-width: 768px) {
+    height: 5vh;
+    width: 12rem;
+    top: 55px;
+  }
+
+  @media screen and (max-width:450px){
+    height: 4vh;
+    width: 9rem;
+  }
 }
 
 .right__bottom__element {
@@ -162,6 +220,17 @@
   height: 7vh;
   position: relative;
   left: 2.5rem;
+
+  @media screen and (max-width: 768px) {
+    height: 5vh;
+    width: 12rem;
+    top: 55px;
+  }
+
+  @media screen and (max-width:450px){
+    height: 4vh;
+    width: 9rem;
+  }
 }
 
 .middle__gradient {
@@ -174,6 +243,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-right: 1rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.8rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 1.4rem;
+  }
 }
 
 .middle__upper__text {
@@ -183,6 +260,14 @@
   font-weight: 500;
   color: #fff;
   margin-top: 3.1rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.9rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 1.4rem;
+  }
 }
 
 .middle__tier {
@@ -195,6 +280,16 @@
   position: relative;
   top: 2rem;
   height: 92%;
+
+  @media screen and (max-width: 768px) {
+    right: 5rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    right: 4rem;
+  }
+
+
 }
 
 .below__text {
@@ -204,4 +299,15 @@
   font-size: 17px;
   position: relative;
   top: -0.35rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
+    top: -1.5rem;
+  }
+
+  
+  @media screen and (max-width: 450px) {
+    font-size: 14px;
+    top: -2rem;
+  }
 }
