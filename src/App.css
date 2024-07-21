@@ -5,6 +5,12 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'Brockmann Light';
+  src: url('../public/fonts/BrokmanTrial-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Gilmer Light';
   src: url('../public/fonts/Gilmer-Light.otf') format('opentype');
   font-weight: normal;

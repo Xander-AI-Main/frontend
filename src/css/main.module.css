@@ -49,10 +49,9 @@
   margin: 0 auto;  
 }
 
-
 .normal {
   font-family: "Brockmann", sans-serif;
-  font-size: 17px;
+  font-size: 19px;
   color: #fff;
   cursor: pointer;
   
@@ -124,7 +123,7 @@
 .upper__text {
   font-family: "Brockmann";
   color: white;
-  font-size: 65px;
+  font-size: 72px;
 
   @media screen and (max-width:768px) {
     font-size: 40px;
@@ -140,7 +139,7 @@
 .upper__text .gradient {
   font-family: "Brockmann";
   background: linear-gradient(90deg, #f77676 50.08%, #3135f7 78.13%);
-  font-size: 65px;
+  font-size: 72px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-left: 0.4rem;

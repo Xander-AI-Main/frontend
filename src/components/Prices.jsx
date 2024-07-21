@@ -22,8 +22,8 @@ export default function Prices() {
       </div>
       <div className={styles.main__pricing}>
         <div className={styles.left__tier}>
-          <div className={styles.element}></div>
-          <div className={styles.left__bottom__element}></div>
+          <div className={styles.element}>Individual Plan</div>
+          <div className={styles.left__bottom__element}>Researcher Plan</div>
         </div>
         <div className={styles.middle__tier}>
           <div className={styles.middle__upper__text}>
@@ -34,11 +34,11 @@ export default function Prices() {
           <div className={styles.below__text}>
             We offer curated options for simplicity, flexibility, and comprehensive coverage. Choose your perfect Plan today!
           </div>
-          <div className={styles.element}></div>
+          <div className={styles.element}>Professional Plan</div>
         </div>
         <div className={styles.right__tier}>
-          <div className={styles.element}></div>
-          <div className={styles.right__bottom__element}></div>
+          <div className={styles.element}>Basic Plan</div>
+          <div className={styles.right__bottom__element}>Standard Plan</div>
         </div>
       </div>
     </div>

@@ -4,33 +4,33 @@ import styles from '../css/services.module.css'
 export default function Services() {
   const services = [
     {
-      title: "",
-      description: "",
+      title: "Regression",
+      description: "This includes price prediction, sales forecasting, demand estimation, medical outcome prediction, and environmental impact assessment etc.",
       bg: 0,
     },
     {
-      title: "",
-      description: "",
+      title: "Classification",
+      description: "It is implemented for email categorization, fraud detection, medical diagnosis, segmentation, and image recognition and much more.",
       bg: 1,
     },
     {
-      title: "",
-      description: "",
+      title: "Textual",
+      description: "We offer sentiment analysis, topic classification, and spam detection for customer feedback analysis, comment moderation,  content categorization etc.",
       bg: 0,
     },
     {
-      title: "",
-      description: "",
+      title: "Chatbots",
+      description: "Covers services like customer service automation, virtual personal assistants, healthcare triage, e-learning support, and e-commerce solutions etc.",
       bg: 0,
     },
     {
-      title: "",
-      description: "",
+      title: "Image Labelling",
+      description: "Application lies in healthcare for disease detection, agriculture for crop monitoring, retail for inventory management, security for surveillance etc.",
       bg: 1,
     },
     {
-      title: "",
-      description: "",
+      title: "Text to speech",
+      description: "Applications include personalized virtual assistants, custom voiceovers, audiobook narration, voice acting for animation and video games etc.",
       bg: 0,
     },
   ]
@@ -44,13 +44,15 @@ export default function Services() {
           services.map((item, index) => {
             return (
               item.bg === 0 ? <div className={styles.current__service__non__bg}>
-
+                <span>{item.title}</span>
+                <div>{item.description}</div>
               </div>
                 :
                 <div className={styles.current__service__main__bg}>
                   {index === 1 && <div className={styles.actual__bg}></div>}
                   <div className={styles.current__service__bg}>
-
+                    <span>{item.title}</span>
+                    <div>{item.description}</div>
                   </div>
                 </div>
             )

@@ -8,7 +8,7 @@ export default function OurStory() {
         Our Story
       </div>
       <div className={styles.our__story}>
-        <span>Just before an exam, I was struck by an innovative idea: a web platform where users upload datasets, choose neural networks, and deploy models with inference APIs – all in a no-code environment. Inspired, I built a team of nine like-minded individuals, and we expanded the concept to include a repository of pre-made datasets. Our vision took shape, and through collaboration, we created a comprehensive AI platform that makes AI accessible and powerful for everyone.</span>
+        <span>Just before an exam, I was struck by an innovative idea: a web platform where users upload datasets, choose neural networks, and deploy models with inference APIs – all in a no-code environment. Inspired, I built a team of nine like-minded individuals, and we expanded the concept to include a repository of pre-made datasets. Our vision took shape, and through collaboration, we are in the process of creating a comprehensive AI platform that makes AI accessible and powerful for everyone.</span>
         <div className={styles.entire__thing}>
           <div className={styles.outer__round__thing}></div>
           <div className={styles.inner__round__thing}>

@@ -71,6 +71,10 @@
     height: 43vh;
     margin-bottom: 5.3rem;
     margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 0.5rem;
 }
 
 .current__service__bg {
@@ -82,6 +86,10 @@
     height: 43vh;
     margin-bottom: 5.3rem;
     margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 0.5rem;
 }
 
 .actual__bg {
@@ -98,4 +106,48 @@
     /* filter: blur(240px); */
     filter: blur(8110px);
     margin-top: 12rem;
+}
+
+.current__service__non__bg > span {
+    color: rgb(255 255 255 / 61%);
+    font-family: 'Gilmer Light';
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    margin-top: 3rem;
+    text-align: center;
+    width: 85%;
+}
+
+.current__service__non__bg > div {
+    color: rgb(255 255 255 / 61%);
+    font-family: 'Gilmer Light';
+    font-size: 1.15rem;
+    text-align: center;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 85%;
+    font-weight: 300;
+}
+
+.current__service__bg > span {
+    color: rgb(255 255 255 / 61%);
+    font-family: 'Gilmer Light';
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    margin-top: 3rem;
+    text-align: center;
+    width: 85%;
+}
+
+.current__service__bg > div {
+    color: rgb(255 255 255 / 61%);
+    font-family: 'Gilmer Light';
+    font-size: 1.15rem;
+    text-align: center;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 85%;
+    font-weight: 300;
 }
