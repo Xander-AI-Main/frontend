@@ -274,6 +274,12 @@
   @media screen and (max-width: 450px) {
     font-size: 1.4rem;
   }
+
+  @media screen and (min-width:768px) and (max-width:1100px){
+    margin-top: 0px;
+    position: relative;
+    top: 6rem;
+  }
 }
 
 .middle__tier {
@@ -315,5 +321,9 @@
   @media screen and (max-width: 450px) {
     font-size: 14px;
     top: -2rem;
+  }
+
+  @media screen and (min-width:768px) and (max-width:1100px){
+    top: -2.5rem;
   }
 }

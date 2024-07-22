@@ -162,6 +162,19 @@ gap: 16rem;
 }
 
 
+@media screen and (min-width:768px) and (max-width:1100px){
+  .footer_innercontent{
+    display: flex;
+    gap: 12rem;
+  }
+  .footer_section::before{
+    left: 18.5rem;
+}
+.footer_section::after{
+  left: 38.5rem;
+}
+}
+
 @media (max-width: 768px) {
   .footer_content {
     flex-direction: column;
