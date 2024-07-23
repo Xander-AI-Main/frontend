@@ -64,6 +64,10 @@
   @media screen and (max-width:480px){
    font-size: 11px;
   }
+
+  @media screen and (min-width:768px) and (max-width:1100px){
+    font-size: 16px;
+  }
 }
 
 .outer__round__thing {

@@ -4,6 +4,10 @@
   background: #01021b;
   width: 100%;
   height: 100vh;
+
+  @media screen and (min-width:768px) and (max-width:1100px){
+    height: 85vh;
+  }
 }
 
 .inner__component {
@@ -201,6 +205,14 @@
     top: 1rem;
     right: 28%;
   }
+
+  @media screen and (min-width:768px) and (max-width:1200px){
+   width: 80.2vw;
+   height: 50.2vh;
+   top: 7rem;
+  }
+
+
 }
 
 .main__text {
@@ -253,5 +265,10 @@ width: 77%;
     font-size: 18px;
     position: relative;
     right: 15px;
+  }
+
+  @media screen and (min-width:768px) and (max-width:1100px){
+  width: 80%;
+  font-size: 21px;
   }
 }
