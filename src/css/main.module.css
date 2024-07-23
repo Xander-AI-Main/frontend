@@ -182,9 +182,9 @@
   top: 13rem;
 }
 
-.main__image{
+.main__image {
   position: relative;
-  top: 4rem;
+  top: 6rem;
   width: 37.2vw;
   height: 79.2vh;
   object-fit: cover;
