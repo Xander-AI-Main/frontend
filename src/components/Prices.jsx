@@ -3,7 +3,7 @@ import styles from '../css/prices.module.css'
 
 export default function Prices() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="pricing">
       <div className={styles.header}>
         <div className={styles.begin__line}></div>
         <div className={styles.header__text}>HOW IT WORKS</div>

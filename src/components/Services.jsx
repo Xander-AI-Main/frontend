@@ -35,7 +35,7 @@ export default function Services() {
     },
   ]
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="services">
       <span className={styles.main__header}>AI - Powered</span>
       <span className={styles.sub__header}>Models at your fingertips</span>
       <div className={styles.services__header}><span className={styles.services__text}>Services</span></div>

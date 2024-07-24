@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    scroll-margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .main__header {
@@ -132,7 +134,7 @@
     font-family: 'Gilmer Light';
     font-size: 1.15rem;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
     width: 85%;
     font-weight: 300;
@@ -154,7 +156,7 @@
     font-family: 'Gilmer Light';
     font-size: 1.15rem;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
     width: 85%;
     font-weight: 300;

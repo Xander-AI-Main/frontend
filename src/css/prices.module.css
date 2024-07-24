@@ -4,6 +4,7 @@
   align-items: center;
   width: 87%;
   margin: 3rem auto 0rem auto;
+  scroll-margin-top: 3rem;
 }
 
 .header {

@@ -4,9 +4,10 @@
   display: flex;
   width: 78%;
   flex-direction: column;
-  margin-top: 7rem;
-  margin-bottom: 5rem;
+  margin-top: 11rem;
+  margin-bottom: 12rem;
   margin-left: 8rem;
+  scroll-margin-top: 7rem;
 }
 
 .title {

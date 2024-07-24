@@ -3,7 +3,7 @@ import styles from '../css/ourstory.module.css'
 
 export default function OurStory() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="our">
       <div className={styles.title}>
         Our Story
       </div>

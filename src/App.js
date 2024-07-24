@@ -6,6 +6,7 @@ import Prices from './components/Prices';
 import Quotes from './components/Quotes';
 import OurStory from './components/OurStory';
 import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
