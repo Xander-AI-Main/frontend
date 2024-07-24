@@ -12,13 +12,13 @@ export default function Footer() {
               <a href="#about">ABOUT</a>
               <a href="#services">SERVICES</a>
               <a href="#technologies">TECHNOLOGIES</a>
-              <a href="#how-to">HOW TO</a>
+              <a href="#how-to"></a>
             </div>
             <div className={styles.footer_section}>
               <a href="#faq">F.A.Q</a>
               <a href="#sitemap">SITEMAP</a>
               <a href="#conditions">CONDITIONS</a>
-              <a href="#licenses">LICENSES</a>
+              <a href="#licenses"></a>
             </div>
           </div>
           <div className={styles.social_section}>

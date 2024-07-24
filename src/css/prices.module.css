@@ -120,7 +120,7 @@
   display: flex;
   width: 87%;
   justify-content: space-between;
-  height: 51.5vh;
+  height: 58.5vh;
   margin-top: 7rem;
   background: linear-gradient(rgba(1, 2, 27, 0.97), rgba(1, 2, 27, 0.97)),
     url("../assets/images/bg_circular_lines.png");
@@ -132,7 +132,7 @@
 
 .left__tier {
   display: flex;
-  height: 77%;
+  height: 71%;
   justify-content: space-between;
   flex-direction: column;
 
@@ -148,7 +148,7 @@
 
 .right__tier {
   display: flex;
-  height: 77%;
+  height: 71%;
   justify-content: space-between;
   flex-direction: column;
 
