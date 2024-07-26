@@ -1,25 +1,29 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../css/main.module.css'
 import AI from '../assets/images/ai.png'
-import { Modal } from 'react-bootstrap'
+import { Dropdown, Modal } from 'react-bootstrap'
 import axios from 'axios'
 
 export default function Main() {
     const [show, setShow] = useState(false)
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
+    const [plan, setPlan] = useState("Select plan")
 
     async function storeData () {
-        if(name !== "" && email !== "") {
+        if(name !== "" && email !== "" && plan !== "Select plan") {
             await axios.post("https://consumer-db-48vg.onrender.com/add-user", {
                 name: name,
-                email: email
+                email: email,
+                plan: plan
             }).then(res => {
                 console.log(res.data)
                 setShow(false)
             }).catch(err => {
                 console.log(err)
             })
+        } else {
+            alert("Please fill all the fields")
         }
     }
 
@@ -33,7 +37,7 @@ export default function Main() {
     }, [])
 
     return (
-        <div className={styles.main}>
+        <div className={styles.main} id="about">
             <Modal show={show} centered dialogClassName={styles.modal__main} onHide={() => setShow(false)}>
                 <Modal.Header closeButton className={styles.modal} onHide={() => setShow(false)}>
                     <span className={styles.modal__header}>Sign Up for early access</span>
@@ -45,6 +49,18 @@ export default function Main() {
                     <input type="text" placeholder='Email' className={styles.name} onChange={(e) => {
                         setEmail(e.target.value)
                     }}/>
+                    <Dropdown className={styles.plan__drop}>
+                        <Dropdown.Toggle className={styles.plan__name}>
+                            <span>{plan}</span>
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu className={styles.plan__menu}>
+                            <Dropdown.Item className={styles.plan__item} onClick={() => setPlan("Individual Plan")}>Individual Plan</Dropdown.Item>
+                            <Dropdown.Item className={styles.plan__item} onClick={() => setPlan("Researcher Plan")}>Researcher Plan</Dropdown.Item>
+                            <Dropdown.Item className={styles.plan__item} onClick={() => setPlan("Basic Plan")}>Basic Plan</Dropdown.Item>
+                            <Dropdown.Item className={styles.plan__item} onClick={() => setPlan("Standard Plan")}>Standard Plan</Dropdown.Item>
+                            <Dropdown.Item className={styles.plan__item} onClick={() => setPlan("Professional Plan")}>Professional Plan</Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>
                     <button className={styles.btn} onClick={() => {
                         storeData()
                     }}>Submit</button>

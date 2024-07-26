@@ -321,3 +321,30 @@
     font-size: 21px;
   }
 }
+
+.plan__drop {
+
+}
+
+.plan__name {
+  width: 100% !important;
+  background: white !important;
+  color: black !important;
+  text-align: start !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border: 1px solid #aeadad !important;
+  font-size: 0.98rem !important;
+  padding: 0.5rem 0.9rem !important;
+  margin-bottom: 1rem !important;
+  color: #3a3a3a !important;
+}
+
+.plan__menu {
+  width: 100% !important;
+}
+
+.plan__item {
+
+}

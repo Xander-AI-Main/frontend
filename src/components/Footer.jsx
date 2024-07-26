@@ -9,16 +9,16 @@ export default function Footer() {
         <div className={styles.footer_content}>
           <div className={styles.footer_innercontent}>
             <div className={styles.footer_section}>
-              <a href="#about">ABOUT</a>
-              <a href="#services">SERVICES</a>
-              <a href="#technologies">TECHNOLOGIES</a>
-              <a href="#how-to"></a>
+              <a href="#about">Home</a>
+              <a href="#services">Services</a>
+              <a href=""></a>
+              <a href=""></a>
             </div>
             <div className={styles.footer_section}>
-              <a href="#faq">F.A.Q</a>
-              <a href="#sitemap">SITEMAP</a>
-              <a href="#conditions">CONDITIONS</a>
-              <a href="#licenses"></a>
+              <a href="#pricing">Pricing</a>
+              <a href="#our">Our Story</a>
+              <a href=""></a>
+              <a href=""></a>
             </div>
           </div>
           <div className={styles.social_section}>
