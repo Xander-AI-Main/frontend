@@ -12,7 +12,7 @@ export default function Main() {
 
     async function storeData () {
         if(name !== "" && email !== "" && plan !== "Select plan") {
-            await axios.post("https://consumer-db-48vg.onrender.com/add-user", {
+            await axios.post("https://7b7h6wl8o9.execute-api.us-east-1.amazonaws.com/add-user", {
                 name: name,
                 email: email,
                 plan: plan
