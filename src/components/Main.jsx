@@ -90,7 +90,7 @@ export default function Main() {
                     <div className={styles.normal} onClick={() => {
                         document.getElementById("footer").scrollIntoView({ behavior: 'smooth' })
                     }}>Contact Us</div>
-                    <div className={styles.signup} onClick={() => {
+                    <div className={styles.normal} onClick={() => {
                         setShow(!show)
                     }}>Signup</div>
                 </div>
