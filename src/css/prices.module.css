@@ -189,7 +189,8 @@
   @media screen and (max-width: 450px) {
     height: 4vh;
     width: 9rem;
-    top: 15px;
+    top: -5px;
+    font-size: 1rem;
   }
 }
 
@@ -221,6 +222,7 @@
   @media screen and (max-width: 450px) {
     height: 4vh;
     width: 9rem;
+    font-size: 1rem;
   }
 }
 
@@ -252,6 +254,7 @@
   @media screen and (max-width: 450px) {
     height: 4vh;
     width: 9rem;
+    font-size: 1rem;
   }
 }
 
@@ -290,6 +293,7 @@
 
   @media screen and (max-width: 450px) {
     font-size: 1.4rem;
+    line-height: 2rem;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1100px) {
@@ -316,6 +320,7 @@
 
   @media screen and (max-width: 450px) {
     right: 4rem;
+    top: 1rem;
   }
 }
 
