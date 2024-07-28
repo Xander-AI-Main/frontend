@@ -68,6 +68,15 @@
   }
 }
 
+.normal_signup{
+  font-family: "Brockmann", sans-serif;
+  font-size: 16.5px;
+  color: #fff;
+  cursor: pointer;
+
+
+}
+
 .modal__header {
   font-size: 1.4rem;
   font-family: "Brockmann", sans-serif;
@@ -128,6 +137,11 @@
   background: #01021b;
   cursor: pointer;
   margin-top: -0.5rem;
+
+  @media screen and (max-width:768px){
+    position: relative;
+    left: 12px;
+  }
 }
 
 .stylish_text {
