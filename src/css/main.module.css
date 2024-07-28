@@ -8,6 +8,10 @@
   @media screen and (min-width: 768px) and (max-width: 1100px) {
     height: 85vh;
   }
+
+  @media screen and (max-width:475px){
+    height: 80vh;
+  }
 }
 
 .inner__component {
@@ -68,13 +72,11 @@
   }
 }
 
-.normal_signup{
+.normal1{
   font-family: "Brockmann", sans-serif;
   font-size: 16.5px;
   color: #fff;
   cursor: pointer;
-
-
 }
 
 .modal__header {
@@ -267,6 +269,7 @@
     width: 45.2vw;
     top: 1rem;
     right: 28%;
+    display: none;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -294,9 +297,9 @@
   }
 
   @media screen and (max-width: 475px) {
-    margin-top: 21rem;
+    margin-top: 8rem;
     height: 40vh;
-    left: 4rem;
+    width: 90%;
   }
 }
 
