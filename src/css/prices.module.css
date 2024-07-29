@@ -175,12 +175,6 @@
     right: 4rem;
   }
 
-  .element{
-    @media screen and (max-width: 450px) {
-      right: 10rem;
-    } 
-  }
-
 }
 
 .element {
@@ -219,7 +213,6 @@
   .element{
     @media screen and (max-width:450px){
       top: 5rem;
-      right: 9rem;
     }
   }
 }
@@ -280,7 +273,7 @@
     height: 4vh;
     width: 9rem;
     font-size: 1rem; 
-    left: -10rem;
+    left: 0rem;
   }
 }
 
