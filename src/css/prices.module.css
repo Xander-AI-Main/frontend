@@ -148,6 +148,16 @@
   @media screen and (max-width: 450px) {
     right: 3rem;
   }
+
+  .left__bottom__element{
+    @media screen and (max-width: 450px) {
+      height: 4vh;
+      width: 9rem;
+      font-size: 1rem;
+      left: 0rem;
+      top: 55px;
+    }
+  }
 }
 
 .right__tier {
@@ -239,13 +249,6 @@
     top: 55px;
   }
 
-  @media screen and (max-width: 450px) {
-    height: 4vh;
-    width: 9rem;
-    font-size: 1rem;
-    left: 0rem;
-    top: 55px;
-  }
 }
 
 .right__bottom__element {
