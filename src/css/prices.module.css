@@ -167,7 +167,7 @@
 
   .element{
     @media screen and (max-width: 450px) {
-      right: 13rem;
+      right: 10rem;
     } 
   }
 
@@ -233,10 +233,9 @@
   left: -2.5rem;
   cursor: pointer;
 
-  @media screen and (max-width: 768px) {
-    height: 4vh;
-    width: 9rem;
-    font-size: 1rem;
+  @media screen and (min-width:451px) and (max-width: 768px) {
+    height: 5vh;
+    width: 12rem;
     top: 55px;
   }
 
@@ -245,6 +244,7 @@
     width: 9rem;
     font-size: 1rem;
     left: 0rem;
+    top: 55px;
   }
 }
 
@@ -277,7 +277,7 @@
     height: 4vh;
     width: 9rem;
     font-size: 1rem; 
-    left: -13rem;
+    left: -10rem;
   }
 }
 
