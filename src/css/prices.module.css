@@ -202,6 +202,7 @@
   .element{
     @media screen and (max-width:450px){
       top: 5rem;
+      right: 8rem;
     }
   }
 }
@@ -268,7 +269,7 @@
     height: 2vh;
     width: 5rem;
     font-size: 0.5rem;
-    left: 0rem ;
+    left: -12rem;
   }
 }
 
