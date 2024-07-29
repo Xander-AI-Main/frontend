@@ -93,6 +93,9 @@ export default function Main() {
                     <div className={styles.normal} onClick={() => {
                         setShow(!show)
                     }}>Signup</div>
+                    <div className={styles.mobile_signup} onClick={() => {
+                        setShow(!show)
+                    }}>Signup</div>
                 </div>
                 <div className={styles.main__content}>
                     <div className={styles.main__text}>

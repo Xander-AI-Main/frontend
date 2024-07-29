@@ -72,6 +72,16 @@
   }
 }
 
+.mobile_signup{
+  font-family: "Brockmann", sans-serif;
+  font-size: 16.5px;
+  color: #fff;
+  cursor: pointer;
+
+  @media screen and (min-width:768px){
+   display: none;
+  }
+}
 .modal__header {
   font-size: 1.4rem;
   font-family: "Brockmann", sans-serif;
@@ -135,8 +145,9 @@
 
   @media screen and (max-width:768px){
     position: relative;
-    left: 12px;
+    left: 18px;  
   }
+
 }
 
 .stylish_text {
