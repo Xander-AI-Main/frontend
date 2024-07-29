@@ -167,7 +167,7 @@
 
   .element{
     @media screen and (max-width: 450px) {
-      right: 15rem;
+      right: 13rem;
     } 
   }
 
@@ -209,7 +209,7 @@
   .element{
     @media screen and (max-width:450px){
       top: 5rem;
-      right: 7rem;
+      right: 9rem;
     }
   }
 }
@@ -234,15 +234,16 @@
   cursor: pointer;
 
   @media screen and (max-width: 768px) {
-    height: 5vh;
-    width: 12rem;
+    height: 4vh;
+    width: 9rem;
+    font-size: 1rem;
     top: 55px;
   }
 
   @media screen and (max-width: 450px) {
-    height: 1.5vh;
-    width: 4rem;
-    font-size: 0.5rem;
+    height: 4vh;
+    width: 9rem;
+    font-size: 1rem;
     left: 0rem;
   }
 }
@@ -276,7 +277,7 @@
     height: 4vh;
     width: 9rem;
     font-size: 1rem; 
-    left: -15rem;
+    left: -13rem;
   }
 }
 
