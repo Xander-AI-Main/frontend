@@ -164,6 +164,13 @@
   @media screen and (max-width: 450px) {
     right: 4rem;
   }
+
+  .element{
+    @media screen and (max-width: 450px) {
+      right: 7rem;
+    } 
+  }
+
 }
 
 .element {
@@ -202,7 +209,6 @@
   .element{
     @media screen and (max-width:450px){
       top: 5rem;
-      right: 8rem;
     }
   }
 }
@@ -226,16 +232,16 @@
   left: -2.5rem;
   cursor: pointer;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width:451px) and (max-width: 768px) {
     height: 5vh;
     width: 12rem;
     top: 55px;
   }
 
   @media screen and (max-width: 450px) {
-    height: 2vh;
-    width: 5rem;
-    font-size: 0.5rem;
+    height: 4vh;
+    width: 9rem;
+    font-size: 1rem;
     left: 0rem;
   }
 }
@@ -266,10 +272,10 @@
   }
 
   @media screen and (max-width: 450px) {
-    height: 2vh;
-    width: 5rem;
-    font-size: 0.5rem;
-    left: -12rem;
+    height: 4vh;
+    width: 9rem;
+    font-size: 1rem; 
+    left: -7rem;
   }
 }
 
