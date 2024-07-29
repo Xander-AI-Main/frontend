@@ -128,7 +128,7 @@
     width: 84%;
 
     @media screen and (max-width:450px){
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     }
 }
 
@@ -151,6 +151,7 @@
     margin-top: 3rem;
     text-align: center;
     width: 84%;
+
 }
 
 .current__service__bg > div {
