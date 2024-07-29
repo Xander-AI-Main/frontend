@@ -174,7 +174,12 @@
   @media screen and (max-width: 450px) {
     right: 4rem;
   }
-
+  
+  .element{
+    @media screen and (max-width: 450px) {
+    right: 1.5rem;
+    }
+  }
 }
 
 .element {
@@ -273,7 +278,7 @@
     height: 4vh;
     width: 9rem;
     font-size: 1rem; 
-    left: 0rem;
+    left: -1.5rem;
   }
 }
 
