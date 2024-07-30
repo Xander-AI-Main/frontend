@@ -24,16 +24,16 @@ export default function Footer() {
           <div className={styles.social_section}>
             <span>SOCIALIZE WITH XANDER</span>
             <div className={styles.social_icons}>
-              <a href="https://www.facebook.com" className={styles.social_icon}><i className="fab fa-facebook-f"></i></a>
-              <a href="https://www.twitter.com" className={styles.social_icon}><i className="fab fa-twitter"></i></a>
-              <a href="https://www.linkedin.com" className={styles.social_icon}><i className="fab fa-linkedin-in"></i></a>
-              <a href="https://www.instagram.com" className={styles.social_icon}><i className="fab fa-instagram"></i></a>
+              <a href="https://mail.zoho.in/zm/#mail/folder/inbox" className={styles.social_icon}><i className="fas fa-envelope "></i></a>
+              <a href="https://x.com/corp_xander" className={styles.social_icon}><i className="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/company/xander-corp01/" className={styles.social_icon}><i className="fab fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/xander__ai/" className={styles.social_icon}><i className="fab fa-instagram"></i></a>
             </div>
             <button className={styles.build_button}>BUILD YOUR WORLD</button>
           </div>
         </div>
         <div className={styles.footer_bottom}>
-          <p>2024 &copy; XANDER & CO. - BY LOREM IPSUM - ALL RIGHTS RESERVED</p>
+          <p>2024 &copy; XANDER & CO. - ALL RIGHTS RESERVED</p>
         </div>
       </footer>
     </div>
