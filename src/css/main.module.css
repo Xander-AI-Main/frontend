@@ -344,7 +344,9 @@
 
   @media screen and (min-width: 768px) and (max-width: 1100px) {
     /* width: 80%; */
-    font-size: 21px;
+    font-size: 17px;
+    padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+
   }
 }
 
@@ -401,9 +403,9 @@
 
 @media screen and (max-width: 1165px) {
   .main__image {
-    width: 47.2vw;
+    width: 37.2vw;
     height: 67.2vh;
-    top: 9rem;
+    top: 4rem;
   }
   .upper__text {
     font-size: 56px;
@@ -415,15 +417,26 @@
 
 @media screen and (max-width: 1099px) {
   .main__image {
-    width: 47.2vw;
-    height: 67.2vh;
-    top: 9rem;
+    width: 39.2vw;
+    height: 69.2vh;
+    top: 3rem;
   }
   .upper__text {
-    font-size: 53px;
+    font-size: 48px;
+    line-height: 3.7rem;
   }
   .gradient {
-    font-size: 53px !important;
+    font-size: 48px !important;
+  }
+  .lower__text {
+    font-size: 16px;
+  }
+  
+}
+
+@media screen and (max-width: 1000px) {
+  .main__text {
+    margin-top: 5rem
   }
 }
 

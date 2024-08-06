@@ -120,7 +120,7 @@
   display: flex;
   width: 87%;
   justify-content: space-between;
-  height: 58.5vh;
+  height: 27rem;
   margin-top: 7rem;
   background: linear-gradient(rgba(1, 2, 27, 0.97), rgba(1, 2, 27, 0.97)),
     url("../assets/images/bg_circular_lines.png");
@@ -230,7 +230,7 @@
     rgba(153, 153, 153, 0) 128.04%
   );
   width: 17rem;
-  height: 7.5vh;
+  height: 3.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -257,7 +257,7 @@
     rgba(153, 153, 153, 0) 128.04%
   );
   width: 17rem;
-  height: 7.5vh;
+  height: 3.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -324,7 +324,7 @@
   @media screen and (min-width: 768px) and (max-width: 1100px) {
     margin-top: 0px;
     position: relative;
-    top: 6rem;
+    top: 1rem;
   }
 }
 
@@ -337,7 +337,7 @@
   justify-content: space-between;
   position: relative;
   top: 2rem;
-  height: 98%;
+  height: 100%;
 
   @media screen and (max-width: 768px) {
     right: 5rem;
@@ -369,7 +369,7 @@
   }
 
   @media screen and (min-width: 768px) and (max-width: 1100px) {
-    top: -2.5rem;
+    /* top: -2.5rem; */
   }
 }
 
@@ -414,4 +414,18 @@
   font-family: "Brockmann";
   font-weight: 600;
   margin-top: 1rem;
+}
+
+@media screen and (max-width: 1230px) {
+  .middle__upper__text { 
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+
+  }
+  .middle__upper__text > span { 
+    font-size: 2.2rem;
+  }
+  .below__text {
+    font-size: 16px;
+  }
 }
