@@ -65,7 +65,7 @@
   content: "";
   position: absolute;
   top: -23px;
-  left: 27rem;
+  left: 27vw;
   width: 7px;
   height: 100%;
   background: linear-gradient(22deg, #b4a5dd, transparent);
@@ -82,7 +82,7 @@
   content: "";
   position: absolute;
   top: -23px;
-  left: 53rem;
+  left: 53vw;
   width: 7px;
   height: 100%;
   background: linear-gradient(22deg, #b4a5dd, transparent);
@@ -166,12 +166,12 @@
     display: flex;
     gap: 12rem;
   }
-  .footer_section::before {
+  /* .footer_section::before {
     left: 18.5rem;
   }
   .footer_section::after {
     left: 38.5rem;
-  }
+  } */
 }
 
 @media (max-width: 768px) {

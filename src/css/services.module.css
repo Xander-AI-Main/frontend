@@ -69,7 +69,7 @@
     background: rgba(217, 217, 217, 0.17);
     backdrop-filter: blur(44.09600067138672px);
     width: 15.5rem;
-    height: 43vh;
+    height: 21rem;
     margin-bottom: 5.3rem;
     margin-right: 4rem;
     display: flex;
@@ -78,7 +78,7 @@
     padding: 0rem 0.5rem;
 
     @media screen and (min-width:768px) and (max-width:1100px){
-        height: 25vh;
+        /* height: 25vh; */
     }
 }
 
@@ -88,7 +88,7 @@
     backdrop-filter: blur(44.09600067138672px);
     margin-top: 3rem;
     width: 15.5rem;
-    height: 43vh;
+    height: 21rem;
     margin-bottom: 5.3rem;
     margin-right: 4rem;
     display: flex;
@@ -97,7 +97,7 @@
     padding: 0rem 0.5rem;
 
     @media screen and (min-width:768px) and (max-width:1100px){
-        height: 25vh;
+        /* height: 25vh; */
     }
 }
 

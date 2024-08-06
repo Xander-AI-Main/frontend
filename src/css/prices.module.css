@@ -170,7 +170,7 @@
     rgba(153, 153, 153, 0) 128.04%
   );
   width: 17rem;
-  height: 7.5vh;
+  height: 3.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,14 +180,14 @@
   cursor: pointer;
 
   @media screen and (max-width: 768px) {
-    height: 5vh;
+    height: 3.6rem;
     width: 12rem;
     position: relative;
     top: 20px;
   }
 
   @media screen and (max-width: 450px) {
-    height: 4vh;
+    height: 3rem;
     width: 9rem;
     top: 15px;
   }
