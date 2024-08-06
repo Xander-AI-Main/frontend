@@ -8,6 +8,10 @@
   @media screen and (min-width: 768px) and (max-width: 1100px) {
     height: 85vh;
   }
+
+  @media screen and (max-width:475px){
+    height: 80vh;
+  }
 }
 
 .inner__component {
@@ -55,6 +59,18 @@
   height: 4rem;
   align-items: center;
   margin: 0 auto;
+
+  .mobilesignup{
+    font-family: "Brockmann", sans-serif;
+  font-size: 16.5px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  right: 10px; 
+  @media screen and (min-width:768px){
+  display: none;
+  }
+  }
 }
 
 .normal {
@@ -128,6 +144,12 @@
   background: #01021b;
   cursor: pointer;
   margin-top: -0.5rem;
+
+  @media screen and (max-width:768px){
+    position: relative;
+    /* left: 18px;   */
+  }
+
 }
 
 .stylish_text {
@@ -180,6 +202,8 @@
 
   @media screen and (max-width: 475px) {
     font-size: 30px;
+    line-height: 2.5rem;
+    position: relative;
   }
 }
 
@@ -251,6 +275,7 @@
     width: 45.2vw;
     top: 1rem;
     right: 28%;
+    display: none;
   }
 
   @media screen and (max-width: 768px) {
@@ -278,9 +303,9 @@
   }
 
   @media screen and (max-width: 475px) {
-    margin-top: 19rem;
+    margin-top: 8rem;
     height: 40vh;
-    left: 4rem;
+    width: 90%;
   }
 }
 
@@ -310,10 +335,11 @@
   }
 
   @media screen and (max-width: 475px) {
-    width: 80%;
+    width: 90%;
     font-size: 18px;
     position: relative;
-    right: 15px;
+    right: 10px;
+    bottom:5px ;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1100px) {
