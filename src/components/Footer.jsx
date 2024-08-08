@@ -11,13 +11,13 @@ export default function Footer() {
             <div className={styles.footer_section}>
               <a href="#about">Home</a>
               <a href="#services">Services</a>
-              <a href=""></a>
+              <a href="/contactus">Contact Us</a>
               <a href=""></a>
             </div>
             <div className={styles.footer_section}>
               <a href="#pricing">Pricing</a>
               <a href="#our">Our Story</a>
-              <a href=""></a>
+              <a href="/tnc">Terms & Conditions</a>
               <a href=""></a>
             </div>
           </div>

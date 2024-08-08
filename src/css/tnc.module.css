@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
+
+.main {
+  background: #01021b;
+  width: 100%;
+  height: 100vh;
+
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
+    height: 85vh;
+  }
+
+  @media screen and (max-width: 475px) {
+    height: 80vh;
+  }
+}
+
+.inner__component {
+  width: 97%;
+  height: 97.7%;
+  display: flex;
+  margin: auto;
+  background: rgba(217, 217, 217, 0.1);
+  box-shadow: inset 74.5667px -74.5667px 74.5667px rgba(165, 165, 165, 0.1),
+    inset -74.5667px 74.5667px 74.5667px rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(74.5667px);
+  backdrop-filter: blur(74.5667px);
+  position: relative;
+  border-top-left-radius: 16px;
+  top: 1rem;
+  border-top-right-radius: 16px;
+  flex-direction: column;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.inner__component::after {
+  /* content: "";
+  position: absolute;
+  left: -26rem;
+  right: 0;
+  bottom: -10rem;
+  height: 285px;
+  background: linear-gradient(
+    171deg,
+    rgba(1, 2, 27, 0) -16.22%,
+    #01021b 36.04%
+  );
+  filter: blur(52.5px);
+  width: 122rem; */
+}
+
+.navbar {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+  margin: 0 auto;
+
+  .mobilesignup {
+    font-family: "Brockmann", sans-serif;
+    font-size: 16.5px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    right: 10px;
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+.normal {
+  font-family: "Brockmann", sans-serif;
+  font-size: 16.5px;
+  color: #fff;
+  cursor: pointer;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.modal__header {
+  font-size: 1.4rem;
+  font-family: "Brockmann", sans-serif;
+}
+
+.modal__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__body > input {
+  margin-bottom: 1rem;
+  padding: 0.45rem 0.7rem;
+  font-size: 1.01rem;
+  border: 1px solid #aeadad;
+  border-radius: 8px;
+  outline: none;
+}
+
+.modal__main {
+  width: 25rem !important;
+  display: flex !important;
+  margin: auto !important;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  margin: 0.3rem auto;
+  padding: 0.6rem 4rem;
+  border: none;
+  color: white;
+  background: #0891ee;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 1.01rem;
+}
+
+.all__stylish {
+  height: 100%;
+  width: 21%;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.stylish {
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94%;
+  background: #01021b;
+  cursor: pointer;
+  margin-top: -0.5rem;
+
+  @media screen and (max-width: 768px) {
+    position: relative;
+    /* left: 18px;   */
+  }
+}
+
+.stylish_text {
+  font-family: "Bruno Ace", sans-serif;
+  font-size: 28px;
+  color: #fff;
+}
+
+.triangle_right {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-top: 100px solid #01021b;
+  position: relative;
+  left: -1.1rem;
+  top: -1.25rem;
+}
+
+.triangle_left {
+  width: 0;
+  height: 0;
+  border-right: 100px solid transparent;
+  border-top: 100px solid #01021b;
+  position: relative;
+  left: 1.06rem;
+  top: -1.25rem;
+}
+
+.main__content {
+  display: flex;
+  height: 90%;
+  justify-content: space-between;
+}
+
+.gradient {
+  font-family: "Brockmann";
+  font-size: 75px;
+  color: linear-gradient(90deg, #f77676 50.08%, #3135f7 78.13%);
+}
+
+.upper__text {
+  font-family: "Brockmann";
+  color: white;
+  font-size: 69px;
+  line-height: 5rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width: 475px) {
+    font-size: 30px;
+    line-height: 2.5rem;
+    position: relative;
+  }
+}
+
+.upper__text .gradient {
+  font-family: "Brockmann";
+  background: linear-gradient(90deg, #f77676 50.08%, #3135f7 78.13%);
+  font-size: 69px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* margin-left: 0.4rem; */
+
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width: 475px) {
+    font-size: 30px;
+  }
+}
+
+.lower__text {
+  font-family: "Gilmer Light";
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-left: 0.4rem;
+  height: 65vh;
+  overflow-y: scroll;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 475px) {
+    font-size: 14px;
+  }
+}
+
+.lower__text::-webkit-scrollbar {
+    display: none;
+}
+
+.main__image__bg {
+  /* width: 50%;
+  background: linear-gradient(260deg, rgba(49, 53, 247, 0.80) 4.47%, rgba(247, 118, 118, 0.80) 87.44%);
+  mix-blend-mode: multiply;
+  filter: blur(175px); */
+  width: 40%;
+  background: linear-gradient(
+    260deg,
+    rgba(49, 53, 247, 0.8) 4.47%,
+    rgba(247, 118, 118, 0.8) 87.44%
+  );
+  mix-blend-mode: multiply;
+  filter: blur(175px);
+  height: 48vh;
+  position: absolute;
+  right: 0rem;
+  top: 13rem;
+}
+
+.main__image {
+  position: relative;
+  top: 6rem;
+  width: 37.2vw;
+  height: 79.2vh;
+  object-fit: cover;
+
+  @media screen and (max-width: 768px) {
+    top: 10rem;
+    height: 40.2vh;
+    width: 50.2vw;
+  }
+
+  @media screen and (max-width: 475px) {
+    height: 30.2vh;
+    width: 45.2vw;
+    top: 1rem;
+    right: 28%;
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 80.2vw;
+    height: 50.2vh;
+    top: 7rem;
+  }
+}
+
+.main__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 6rem;
+  margin-top: 4rem;
+  height: 72vh;
+  width: 75%;
+  position: relative;
+  flex-wrap: nowrap;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 2rem;
+    width: 59%;
+    margin-top: 4rem;
+  }
+
+  @media screen and (max-width: 475px) {
+    margin-top: 8rem;
+    height: 40vh;
+    width: 90%;
+  }
+}
+
+.explore__now {
+  color: #fff;
+  font-size: 19px;
+  padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 6rem;
+  background-image: linear-gradient(
+      rgba(23, 24, 46, 255),
+      rgba(23, 24, 46, 255)
+    ),
+    linear-gradient(90deg, #f77676 0%, #3135f7 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  cursor: pointer;
+  z-index: 3;
+
+  @media screen and (max-width: 768px) {
+    width: 77%;
+  }
+
+  @media screen and (max-width: 475px) {
+    width: 90%;
+    font-size: 18px;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
+    /* width: 80%; */
+    font-size: 17px;
+    padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+  }
+}
+
+.plan__drop {
+}
+
+.plan__name {
+  width: 100% !important;
+  background: white !important;
+  color: black !important;
+  text-align: start !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border: 1px solid #aeadad !important;
+  font-size: 0.98rem !important;
+  padding: 0.5rem 0.9rem !important;
+  margin-bottom: 1rem !important;
+  color: #3a3a3a !important;
+}
+
+.plan__menu {
+  width: 100% !important;
+}
+
+.plan__item {
+}
+
+@media screen and (max-width: 1356px) {
+  .main__image {
+    width: 41.2vw;
+  }
+  .upper__text {
+    font-size: 62px;
+  }
+  .gradient {
+    font-size: 62px !important;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .main__image {
+    width: 38.2vw;
+    height: 70.2vh;
+    top: 9rem;
+  }
+  .upper__text {
+    font-size: 58px;
+  }
+  .gradient {
+    font-size: 58px !important;
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  .main__image {
+    width: 37.2vw;
+    height: 67.2vh;
+    top: 4rem;
+  }
+  .upper__text {
+    font-size: 56px;
+  }
+  .gradient {
+    font-size: 56px !important;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .main__image {
+    width: 39.2vw;
+    height: 69.2vh;
+    top: 3rem;
+  }
+  .upper__text {
+    font-size: 48px;
+    line-height: 3.7rem;
+  }
+  .gradient {
+    font-size: 48px !important;
+  }
+  .lower__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main__text {
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__image {
+    width: 47.2vw;
+    height: 67.2vh;
+    top: 9rem;
+  }
+  .upper__text {
+    line-height: 3rem;
+    font-size: 40px;
+  }
+  .gradient {
+    font-size: 53px;
+    line-height: 3rem;
+    font-size: 40px !important;
+  }
+}

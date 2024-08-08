@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react'
-import styles from '../css/main.module.css'
+import styles from '../css/contactus.module.css'
 import AI from '../assets/images/ai.png'
 import { Dropdown, Modal } from 'react-bootstrap'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
-export default function Main() {
+export default function ContactUs() {
     const [show, setShow] = useState(false)
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [plan, setPlan] = useState("Select plan")
     const navigate = useNavigate()
-    async function storeData () {
-        if(name !== "" && email !== "" && plan !== "Select plan") {
+    async function storeData() {
+        if (name !== "" && email !== "" && plan !== "Select plan") {
             await axios.post("https://7b7h6wl8o9.execute-api.us-east-1.amazonaws.com/add-user", {
                 name: name,
                 email: email,
@@ -34,7 +34,7 @@ export default function Main() {
                 setShow(true)
             }
         }
-    
+
     }, [])
 
     return (
@@ -46,10 +46,10 @@ export default function Main() {
                 <Modal.Body className={styles.modal__body}>
                     <input type="text" placeholder='Name' className={styles.name} onChange={(e) => {
                         setName(e.target.value)
-                    }}/>
+                    }} />
                     <input type="text" placeholder='Email' className={styles.name} onChange={(e) => {
                         setEmail(e.target.value)
-                    }}/>
+                    }} />
                     <Dropdown className={styles.plan__drop}>
                         <Dropdown.Toggle className={styles.plan__name}>
                             <span>{plan}</span>
@@ -70,15 +70,24 @@ export default function Main() {
             <div className={styles.inner__component}>
                 <div className={styles.navbar}>
                     <div className={styles.normal} onClick={() => {
-                        window.location.reload()
+                        navigate('/')
+                        // window.location.reload()
                     }}>Home</div>
                     <div className={styles.normal} onClick={() => {
                         navigate('/')
-                        document.getElementById("services").scrollIntoView({ behavior: 'smooth' })
+                        setTimeout(() => {
+                            if (document.getElementById("services")) {
+                                document.getElementById("services").scrollIntoView({ behavior: 'smooth' })
+                            }
+                        }, 500)
                     }}>Services</div>
                     <div className={styles.normal} onClick={() => {
                         navigate('/')
-                        document.getElementById("pricing").scrollIntoView({ behavior: 'smooth' })
+                        setTimeout(() => {
+                            if (document.getElementById("pricing")) {
+                                document.getElementById("pricing").scrollIntoView({ behavior: 'smooth' })
+                            }
+                        }, 500)
                     }}>Pricing</div>
                     <div className={styles.all__stylish}>
                         <div className={styles.stylish}>
@@ -89,7 +98,11 @@ export default function Main() {
                     </div>
                     <div className={styles.normal} onClick={() => {
                         navigate('/')
-                        document.getElementById("our").scrollIntoView({ behavior: 'smooth' })
+                        setTimeout(() => {
+                            if (document.getElementById("our")) {
+                                document.getElementById("our").scrollIntoView({ behavior: 'smooth' })
+                            }
+                        }, 500)
                     }}>Our Story</div>
                     <div className={styles.normal} onClick={() => {
                         // document.getElementById("footer").scrollIntoView({ behavior: 'smooth' })
@@ -105,17 +118,21 @@ export default function Main() {
                 <div className={styles.main__content}>
                     <div className={styles.main__text}>
                         <div className={styles.upper__text}>
-                            Focus on Goals, Not the
-                            <span className={styles.gradient}>Tech!</span>
+                            {/* Focus on Goals, Not the */}
+                            <span className={styles.gradient}>Contact Us</span>
                         </div>
                         <div className={styles.lower__text}>
-                            Say goodbye to technical headaches – from data preprocessing to model deployment, we automate everything. No tech skills? No problem. Embrace the future of AI with simplicity and ease.
+                            <span>Merchant Legal entity name: ATULIT GAUR</span>
+                            <span>Registered Address: C-3, Vasant Kunj, New Delhi, Delhi, PIN: 110070</span>
+                            <span>Operational Address: C-3, Vasant Kunj, New Delhi, Delhi, PIN: 110070</span>
+                            <span>Telephone No: 9999200237</span>
+                            <span>E-Mail ID: atulit23@gmail.com</span>
                         </div>
-                        <div className={styles.explore__now} onClick={() => {
+                        {/* <div className={styles.explore__now} onClick={() => {
                         document.getElementById("services").scrollIntoView({ behavior: 'smooth' })
-                    }}>
+                        }}>
                             Explore now
-                        </div>
+                        </div> */}
                     </div>
                     <div className={styles.main__image__bg}>
                     </div>
