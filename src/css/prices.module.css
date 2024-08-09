@@ -50,7 +50,7 @@
 
   @media screen and (max-width: 450px) {
     position: relative;
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 }
 
@@ -207,7 +207,7 @@
   @media screen and (max-width: 481px) {
     height: 3rem;
     width: 10rem;
-    top: 0;
+    top: 0 !important;
     right: 0;
     left: 0;
     font-size: 1rem;
@@ -431,6 +431,9 @@
 
 .price__details {
   width: 19rem !important;
+  @media screen and (max-width: 450px) {
+    margin-left: 2rem;
+  }
 }
 
 .p__header > span {
@@ -550,6 +553,9 @@
   }
   .main__pricing {
     flex-direction: column;
+  }
+  .price__details {
+    margin-left: 2rem !important;
   }
 }
 

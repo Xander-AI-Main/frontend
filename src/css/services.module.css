@@ -173,6 +173,14 @@
   }
   .all__services {
     margin-left: 4rem !important;
+  }  
+  .actual__bg {
+    background: linear-gradient(176deg, #f77676 32.96%, #3135f7 132.99%);
+    filter: blur(8110px);
+    height: 30vh;
+    margin-top: 12rem;
+    position: absolute;
+    width: 100%;
   }
 }
 
@@ -183,4 +191,5 @@
   .current__service__non__bg {
     /* width: 16.5rem; */
   }
+
 }
