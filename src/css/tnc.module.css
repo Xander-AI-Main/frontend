@@ -10,7 +10,7 @@
   }
 
   @media screen and (max-width: 475px) {
-    height: 80vh;
+    height: 100vh;
   }
 }
 
@@ -460,5 +460,44 @@
     font-size: 53px;
     line-height: 3rem;
     font-size: 40px !important;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .triangle_right {
+    display: none;
+  }
+  .triangle_left {
+    display: none;
+  }
+  .stylish {
+    background: transparent;
+    margin-top: 0rem;
+  }
+  .navbar {
+    height: 5.5rem;
+  }
+  .all__stylish {
+    justify-content: space-between;
+  }
+  .inner__component::after {
+    display: none;
+  }
+  .main__text {
+    height: 74vh;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main__text {
+    height: 74vh;
+    margin-top: 2rem;
+  }
+  .lower__text {
+    font-size: 17px !important;
+    width: 90%;
   }
 }

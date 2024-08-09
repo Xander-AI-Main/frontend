@@ -80,7 +80,10 @@ export default function Main() {
                         navigate('/')
                         document.getElementById("pricing").scrollIntoView({ behavior: 'smooth' })
                     }}>Pricing</div>
-                    <div className={styles.all__stylish}>
+                    <div className={styles.all__stylish} onClick={() => {
+                        navigate('/')
+                        window.location.reload()
+                    }}>
                         <div className={styles.stylish}>
                             <div className={styles.triangle_right}></div>
                             <div className={styles.stylish_text}>Xander</div>

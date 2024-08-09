@@ -89,7 +89,9 @@ export default function ContactUs() {
                             }
                         }, 500)
                     }}>Pricing</div>
-                    <div className={styles.all__stylish}>
+                    <div className={styles.all__stylish} onClick={() => {
+                        navigate('/')
+                    }}>
                         <div className={styles.stylish}>
                             <div className={styles.triangle_right}></div>
                             <div className={styles.stylish_text}>Xander</div>
