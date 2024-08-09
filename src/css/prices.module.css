@@ -170,6 +170,14 @@
     position: relative;
     right: 10rem;
   }
+  @media screen and (max-width: 400px) {
+    display: flex;
+    height: 32%;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    right: 0;
+  }
 }
 
 .element {
@@ -204,6 +212,15 @@
     left: 0;
     font-size: 1rem;
   }
+
+  @media screen and (max-width: 400px) {
+    width: 9rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-size: 0.9rem !important;
+    height: 2.5rem;
+  }
 }
 
 .mid__element {
@@ -237,6 +254,14 @@
     top: 5.4rem !important;
     font-size: 1rem;
   }
+
+  @media screen and (max-width: 400px) {
+    top: 4.3rem !important;
+    right: 0rem;
+    width: 10rem !important;
+    height: 2.7rem !important;
+    font-size: 0.9rem !important;
+  }
 }
 
 .left__bottom__element {
@@ -263,6 +288,13 @@
     width: 12rem;
     top: 55px;
   }
+
+  @media screen and (max-width: 400px) {
+    top: 0px !important;
+    height: 2.5rem !important;
+    width: 9rem !important;
+    font-size: 0.9rem !important;
+  }
 }
 
 .right__bottom__element {
@@ -288,6 +320,14 @@
     height: 5vh;
     width: 12rem;
     top: 55px;
+  }
+
+  @media screen and (max-width: 400px) {
+    top: 0px !important;
+    width: 9rem !important;
+    height: 2.5rem !important;
+    left: 0 !important;
+    font-size: 0.9rem !important;
   }
 
   /* @media screen and (max-width: 450px) {
@@ -524,18 +564,18 @@
     align-items: normal;
   }
   .element {
-    width: 9rem;
+    /* width: 9rem;
     top: 0;
     right: 0;
     left: 0;
     font-size: 0.9rem;
-    height: 2.5rem;
+    height: 2.5rem; */
   }
   .left__bottom__element {
-    top: 0px !important;
+    /* top: 0px !important;
     height: 2.5rem !important;
     width: 9rem !important;
-    font-size: 0.9rem !important;
+    font-size: 0.9rem !important; */
   }
   .middle__tier {
     top: -8rem;
@@ -546,27 +586,27 @@
     width: 11rem !important;
   }
   .right__tier {
-    display: flex;
+    /* display: flex;
     height: 32%;
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
-    right: 0;
+    right: 0; */
   }
   .right__bottom__element {
-    top: 0px;
+    /* top: 0px;
     width: 9rem;
     height: 2.5rem;
     left: 0;
-    font-size: 0.9rem;
+    font-size: 0.9rem; */
   }
   .main__pricing {
     flex-direction: column;
   }
   .mid__element {
-    top: 4.5rem !important;
+    /* top: 4.5rem !important;
     right: 0rem;
     width: 10rem !important;
-    height: 2.7rem !important;
+    height: 2.7rem !important; */
   }
 }
