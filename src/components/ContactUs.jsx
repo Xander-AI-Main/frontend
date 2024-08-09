@@ -124,11 +124,11 @@ export default function ContactUs() {
                             <span className={styles.gradient}>Contact Us</span>
                         </div>
                         <div className={styles.lower__text}>
-                            <span>Merchant Legal entity name: ATULIT GAUR</span>
+                            <span>Merchant Legal entity name: Xander Co</span>
                             <span>Registered Address: C-3, Vasant Kunj, New Delhi, Delhi, PIN: 110070</span>
                             <span>Operational Address: C-3, Vasant Kunj, New Delhi, Delhi, PIN: 110070</span>
                             <span>Telephone No: 9999200237</span>
-                            <span>E-Mail ID: atulit23@gmail.com</span>
+                            <span>E-Mail ID: main@xanderco.in</span>
                         </div>
                         {/* <div className={styles.explore__now} onClick={() => {
                         document.getElementById("services").scrollIntoView({ behavior: 'smooth' })

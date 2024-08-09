@@ -126,7 +126,7 @@ export default function TnC() {
                         <div className={styles.lower__text}>
                             <p>
                                 These Terms and Conditions, along with privacy policy or other terms (“<span>Terms</span>”)
-                                constitute a binding agreement by and between ATULIT GAUR, (“<span>Website Owner</span>”
+                                constitute a binding agreement by and between Xander Co, (“<span>Website Owner</span>”
                                 or “<span>we</span>” or “<span>us</span>” or “<span>our</span>”) and you (“<span>you</span>”
                                 or “<span>your</span>”) and relate to your use of our website, goods (as applicable) or services
                                 (as applicable) (collectively, “<span>Services</span>”).
