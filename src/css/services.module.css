@@ -181,6 +181,7 @@
     margin-top: 12rem;
     position: absolute;
     width: 100%;
+    display: none;
   }
 }
 
