@@ -211,13 +211,22 @@
   }
   .footer_content::before {
     top: 19rem;
+    display: none;
   }
   .footer_section {
-    align-items: center;
-    width: 25vw;
+    align-items: normal;
+    width: 43vw;
   }
-
   .footer_bottom p {
     font-size: 14px;
+  }
+  .footer_innercontent {
+    gap: 0rem;
+  }
+  .footer_section::after {
+    display: none;
+  }
+  .social_section {
+    margin-bottom: 1rem;
   }
 }

@@ -29,8 +29,8 @@ export default function Services() {
       bg: 1,
     },
     {
-      title: "Text to speech",
-      description: "Applications include personalized virtual assistants, custom voiceovers, audiobook narration, voice acting for animation and video games etc.",
+      title: "Anomaly Detection",
+      description: "Applications include  network security, manufacturing quality control, predictive maintenance, credit scoring, and system monitoring etc.",
       bg: 0,
     },
   ]
@@ -43,10 +43,13 @@ export default function Services() {
         {
           services.map((item, index) => {
             return (
-              item.bg === 0 ? <div className={styles.current__service__non__bg}>
-                <span>{item.title}</span>
-                <div>{item.description}</div>
-              </div>
+              item.bg === 0 ?
+                <div className={styles.current__service__main__bg}>
+                  <div className={styles.current__service__non__bg}>
+                    <span style={{ fontSize: index === 5 ? '1.3rem' : '1.5rem' }}>{item.title}</span>
+                    <div>{item.description}</div>
+                  </div>
+                </div>
                 :
                 <div className={styles.current__service__main__bg}>
                   {index === 1 && <div className={styles.actual__bg}></div>}

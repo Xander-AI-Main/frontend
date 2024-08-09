@@ -1,165 +1,183 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    scroll-margin-top: 2rem;
-    margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .main__header {
-    color: rgba(253, 210, 210, 0.60);
-    font-family: 'Brockmann';
-    font-size: 1.35rem;
-    font-style: normal;
-    font-weight: 500;
+  color: rgba(253, 210, 210, 0.6);
+  font-family: "Brockmann";
+  font-size: 1.35rem;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .sub__header {
-    font-family: 'Brockmann';
-    font-size: 3.2rem;
-    font-style: normal;
-    font-weight: 500;
-    background: linear-gradient(180deg, #F77676 0%, #3135F7 149.48%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 1rem;
+  font-family: "Brockmann";
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  background: linear-gradient(180deg, #f77676 0%, #3135f7 149.48%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 1rem;
 
-    @media screen and (max-width:768px) {
-        font-size: 2rem;
-      }
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
 }
 
 .services__header {
-    color: rgb(255 255 255 / 61%);
-    font-family: 'Brockmann';
-    font-size: 24px;
-    padding: 0.6rem 1.4rem;
-    border-radius: 50px;
-    border: 0.5px solid #828282;
-    background: linear-gradient(90deg, rgba(247, 118, 118, 0.10) 0%, rgba(49, 53, 247, 0.10) 100%);
-    box-shadow: 0px 0px 12.3px -1px rgba(247, 118, 118, 0.30) inset;
-    width: 19rem;
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: rgb(255 255 255 / 61%);
+  font-family: "Brockmann";
+  font-size: 24px;
+  padding: 0.6rem 1.4rem;
+  border-radius: 50px;
+  border: 0.5px solid #828282;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 118, 118, 0.1) 0%,
+    rgba(49, 53, 247, 0.1) 100%
+  );
+  box-shadow: 0px 0px 12.3px -1px rgba(247, 118, 118, 0.3) inset;
+  width: 19rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    @media screen and (max-width:768px) {
-        margin-top: 2rem;
-        font-size: 20px;
-      }
+  @media screen and (max-width: 768px) {
+    margin-top: 2rem;
+    font-size: 20px;
+  }
 }
 
 .all__services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 71%;
-    margin-top: 5rem;
-    margin-left: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 71%;
+  margin-top: 5rem;
+  margin-left: 3rem;
 
-    @media screen and (max-width:768px){
-        justify-content: center;
-    }
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.current__service__main__bg {
+    /* width: 15.5rem; */
 }
 
 .current__service__non__bg {
-    border-radius: 26px;
-    background: rgba(217, 217, 217, 0.17);
-    backdrop-filter: blur(44.09600067138672px);
-    width: 15.5rem;
-    height: 21rem;
-    margin-bottom: 5.3rem;
-    margin-right: 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0rem 0.5rem;
+  border-radius: 26px;
+  background: rgba(217, 217, 217, 0.17);
+  backdrop-filter: blur(44.09600067138672px);
+  width: 15.5rem;
+  height: 21rem;
+  margin-bottom: 5.3rem;
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 0.5rem;
 
-    @media screen and (min-width:768px) and (max-width:1100px){
-        /* height: 25vh; */
-    }
+  @media screen and (max-width: 400px) {
+    /* width: 16.5rem; */
+  }
 }
 
 .current__service__bg {
-    border-radius: 26px;
-    background: rgba(217, 217, 217, 0.17);
-    backdrop-filter: blur(44.09600067138672px);
-    margin-top: 3rem;
-    width: 15.5rem;
-    height: 21rem;
-    margin-bottom: 5.3rem;
-    margin-right: 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0rem 0.5rem;
-
-    @media screen and (min-width:768px) and (max-width:1100px){
-        /* height: 25vh; */
-    }
+  border-radius: 26px;
+  background: rgba(217, 217, 217, 0.17);
+  backdrop-filter: blur(44.09600067138672px);
+  margin-top: 3rem;
+  width: 15.5rem;
+  height: 21rem;
+  margin-bottom: 5.3rem;
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 0.5rem;
 }
 
 .actual__bg {
-    /* height: 20vh;
+  /* height: 20vh;
     position: absolute;
     width: 16rem;
     background: linear-gradient(176deg, #F77676 32.96%, #3135F7 132.99%);
     filter: blur(100px);
     margin-top: 4rem; */
-    height: 70vh;
-    position: absolute;
-    width: 16rem;
-    background: linear-gradient(176deg, #F77676 32.96%, #3135F7 132.99%);
-    /* filter: blur(240px); */
-    filter: blur(8110px);
-    margin-top: 12rem;
+  height: 70vh;
+  position: absolute;
+  width: 16rem;
+  background: linear-gradient(176deg, #f77676 32.96%, #3135f7 132.99%);
+  /* filter: blur(240px); */
+  filter: blur(8110px);
+  margin-top: 12rem;
 }
 
 .current__service__non__bg > span {
-    color: rgb(255 255 255 / 61%);
-    font-family: 'Gilmer Light';
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-    text-align: center;
-    width: 84%;
+  color: rgb(255 255 255 / 61%);
+  font-family: "Gilmer Light";
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+  width: 84%;
 
-    @media screen and (max-width:450px){
+  @media screen and (max-width: 450px) {
     margin-top: 1.5rem;
-    }
+  }
 }
 
 .current__service__non__bg > div {
-    color: rgb(255 255 255 / 61%);
-    font-family: 'Gilmer Light';
-    font-size: 1.05rem;
-    text-align: center;
-    text-align: center;
-    width: 84%;
-    font-weight: 300;
+  color: rgb(255 255 255 / 61%);
+  font-family: "Gilmer Light";
+  font-size: 1.05rem;
+  text-align: center;
+  text-align: center;
+  width: 84%;
+  font-weight: 300;
 }
 
 .current__service__bg > span {
-    color: rgb(255 255 255 / 61%);
-    font-family: 'Gilmer Light';
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-    text-align: center;
-    width: 84%;
-
+  color: rgb(255 255 255 / 61%);
+  font-family: "Gilmer Light";
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+  width: 84%;
 }
 
 .current__service__bg > div {
-    color: rgb(255 255 255 / 61%);
-    font-family: 'Gilmer Light';
-    font-size: 1.05rem;
-    text-align: center;
-    text-align: center;
-    width: 84%;
-    font-weight: 300;
+  color: rgb(255 255 255 / 61%);
+  font-family: "Gilmer Light";
+  font-size: 1.05rem;
+  text-align: center;
+  text-align: center;
+  width: 84%;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+  .current__service__non__bg > span {
+    margin-top: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sub__header {
+    font-size: 1.7rem;
+  }
+  .current__service__non__bg {
+    /* width: 16.5rem; */
+  }
 }

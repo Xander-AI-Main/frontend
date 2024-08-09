@@ -16,10 +16,10 @@
   font-size: 3.4rem;
   font-style: normal;
   font-weight: 500;
-  
-  @media screen and (max-width:480px) {
+
+  @media screen and (max-width: 480px) {
     position: relative;
-    right: 2.5rem;
+    right: 4rem;
   }
 }
 
@@ -36,15 +36,17 @@
   justify-content: space-between;
   align-items: center;
 
-  @media screen and (max-width:768px){
+  @media screen and (max-width: 768px) {
     position: relative;
     right: 23%;
     width: 112%;
   }
-  
-  @media screen and (max-width:480px){
+
+  @media screen and (max-width: 480px) {
     right: 35%;
-    width: 120%;
+    width: 110%;
+    height: 45vh;
+    border-radius: 0 !important;
   }
 }
 
@@ -58,16 +60,16 @@
   display: flex;
   padding: 1.1rem 1.6rem;
 
-  @media screen and (max-width:768px) {
+  @media screen and (max-width: 768px) {
     font-size: 10.5px;
   }
-  
-  @media screen and (max-width:480px){
-   font-size: 12px;
-   width: 90%;
+
+  @media screen and (max-width: 480px) {
+    width: 90%;
+    font-size: 3.2vw !important;
   }
 
-  @media screen and (min-width:768px) and (max-width:1100px){
+  @media screen and (min-width: 768px) and (max-width: 1100px) {
     font-size: 16px;
   }
 }
@@ -86,9 +88,9 @@
   right: -0.6rem;
   z-index: 2;
 
-  @media screen and (max-width:768px){
-  height: 14rem;
-  width: 14rem;
+  @media screen and (max-width: 768px) {
+    height: 14rem;
+    width: 14rem;
   }
 }
 
@@ -101,7 +103,7 @@
   right: 0;
   z-index: 3;
 
-  @media  screen and (max-width:768px) {
+  @media screen and (max-width: 768px) {
     height: 13rem;
     width: 13rem;
   }
@@ -114,98 +116,171 @@
   position: relative;
   left: 2rem;
 
-  @media screen and (max-width:480px){
+  @media screen and (max-width: 480px) {
     display: none;
   }
 }
 
 .inner__round__thing > span {
-    color: #000;
-    font-family: "Poppins";
-    font-size: 18.9px;
-    font-style: normal;
-    font-weight: 400;
-    position: absolute;
-    transform-origin: 0px 118px;
-    transform: rotate(calc(var(--rotate)* 1deg)) translateX(-50%);
-    margin-left: 8.3rem;
-    margin-top: 0.9rem;
+  color: #000;
+  font-family: "Poppins";
+  font-size: 18.9px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  transform-origin: 0px 118px;
+  transform: rotate(calc(var(--rotate) * 1deg)) translateX(-50%);
+  margin-left: 8.3rem;
+  margin-top: 0.9rem;
 
-    @media screen and (max-width:768px) {
-      margin-left: 6.5rem;
-      margin-top: 0.2rem;
-      transform-origin: 0px 105px;
-    }
+  @media screen and (max-width: 768px) {
+    margin-left: 6.5rem;
+    margin-top: 0.2rem;
+    transform-origin: 0px 105px;
+  }
 }
 
-.inner__round__thing span:nth-child(1)  { --rotate: calc(360 / 39 * 0); }
-.inner__round__thing span:nth-child(2)  { --rotate: calc(360 / 39 * 1); }
-.inner__round__thing span:nth-child(3)  { --rotate: calc(360 / 39 * 2); }
-.inner__round__thing span:nth-child(4)  { --rotate: calc(360 / 39 * 3); }
-.inner__round__thing span:nth-child(5)  { --rotate: calc(360 / 39 * 4); }
-.inner__round__thing span:nth-child(6)  { --rotate: calc(360 / 39 * 5); }
-.inner__round__thing span:nth-child(7)  { --rotate: calc(360 / 39 * 6); }
-.inner__round__thing span:nth-child(8)  { --rotate: calc(360 / 39 * 7); }
-.inner__round__thing span:nth-child(9)  { --rotate: calc(360 / 39 * 8); }
-.inner__round__thing span:nth-child(10) { --rotate: calc(360 / 39 * 9); }
-.inner__round__thing span:nth-child(11) { --rotate: calc(360 / 39 * 10); }
-.inner__round__thing span:nth-child(12) { --rotate: calc(360 / 39 * 11); }
-.inner__round__thing span:nth-child(13) { --rotate: calc(360 / 39 * 12); }
-.inner__round__thing span:nth-child(14) { --rotate: calc(360 / 39 * 13); }
-.inner__round__thing span:nth-child(15) { --rotate: calc(360 / 39 * 14); }
-.inner__round__thing span:nth-child(16) { --rotate: calc(360 / 39 * 15); }
-.inner__round__thing span:nth-child(17) { --rotate: calc(360 / 39 * 16); }
-.inner__round__thing span:nth-child(18) { --rotate: calc(360 / 39 * 17); }
-.inner__round__thing span:nth-child(19) { --rotate: calc(360 / 39 * 18); }
-.inner__round__thing span:nth-child(20) { --rotate: calc(360 / 39 * 19); }
-.inner__round__thing span:nth-child(21) { --rotate: calc(360 / 39 * 20); }
-.inner__round__thing span:nth-child(22) { --rotate: calc(360 / 39 * 21); }
-.inner__round__thing span:nth-child(23) { --rotate: calc(360 / 39 * 22); }
-.inner__round__thing span:nth-child(24) { --rotate: calc(360 / 39 * 23); }
-.inner__round__thing span:nth-child(25) { --rotate: calc(360 / 39 * 24); }
-.inner__round__thing span:nth-child(26) { --rotate: calc(360 / 39 * 25); }
-.inner__round__thing span:nth-child(27) { --rotate: calc(360 / 39 * 26); }
-.inner__round__thing span:nth-child(28) { --rotate: calc(360 / 39 * 27); }
-.inner__round__thing span:nth-child(29) { --rotate: calc(360 / 39 * 28); }
-.inner__round__thing span:nth-child(30) { --rotate: calc(360 / 39 * 29); }
-.inner__round__thing span:nth-child(31) { --rotate: calc(360 / 39 * 30); }
-.inner__round__thing span:nth-child(32) { --rotate: calc(360 / 39 * 31); }
-.inner__round__thing span:nth-child(33) { --rotate: calc(360 / 39 * 32); }
-.inner__round__thing span:nth-child(34) { --rotate: calc(360 / 39 * 33); }
-.inner__round__thing span:nth-child(35) { --rotate: calc(360 / 39 * 34); }
-.inner__round__thing span:nth-child(36) { --rotate: calc(360 / 39 * 35); }
-.inner__round__thing span:nth-child(37) { --rotate: calc(360 / 39 * 36); }
-.inner__round__thing span:nth-child(38) { --rotate: calc(360 / 39 * 37); }
-.inner__round__thing span:nth-child(39) { --rotate: calc(360 / 39 * 38); }
-
-
+.inner__round__thing span:nth-child(1) {
+  --rotate: calc(360 / 39 * 0);
+}
+.inner__round__thing span:nth-child(2) {
+  --rotate: calc(360 / 39 * 1);
+}
+.inner__round__thing span:nth-child(3) {
+  --rotate: calc(360 / 39 * 2);
+}
+.inner__round__thing span:nth-child(4) {
+  --rotate: calc(360 / 39 * 3);
+}
+.inner__round__thing span:nth-child(5) {
+  --rotate: calc(360 / 39 * 4);
+}
+.inner__round__thing span:nth-child(6) {
+  --rotate: calc(360 / 39 * 5);
+}
+.inner__round__thing span:nth-child(7) {
+  --rotate: calc(360 / 39 * 6);
+}
+.inner__round__thing span:nth-child(8) {
+  --rotate: calc(360 / 39 * 7);
+}
+.inner__round__thing span:nth-child(9) {
+  --rotate: calc(360 / 39 * 8);
+}
+.inner__round__thing span:nth-child(10) {
+  --rotate: calc(360 / 39 * 9);
+}
+.inner__round__thing span:nth-child(11) {
+  --rotate: calc(360 / 39 * 10);
+}
+.inner__round__thing span:nth-child(12) {
+  --rotate: calc(360 / 39 * 11);
+}
+.inner__round__thing span:nth-child(13) {
+  --rotate: calc(360 / 39 * 12);
+}
+.inner__round__thing span:nth-child(14) {
+  --rotate: calc(360 / 39 * 13);
+}
+.inner__round__thing span:nth-child(15) {
+  --rotate: calc(360 / 39 * 14);
+}
+.inner__round__thing span:nth-child(16) {
+  --rotate: calc(360 / 39 * 15);
+}
+.inner__round__thing span:nth-child(17) {
+  --rotate: calc(360 / 39 * 16);
+}
+.inner__round__thing span:nth-child(18) {
+  --rotate: calc(360 / 39 * 17);
+}
+.inner__round__thing span:nth-child(19) {
+  --rotate: calc(360 / 39 * 18);
+}
+.inner__round__thing span:nth-child(20) {
+  --rotate: calc(360 / 39 * 19);
+}
+.inner__round__thing span:nth-child(21) {
+  --rotate: calc(360 / 39 * 20);
+}
+.inner__round__thing span:nth-child(22) {
+  --rotate: calc(360 / 39 * 21);
+}
+.inner__round__thing span:nth-child(23) {
+  --rotate: calc(360 / 39 * 22);
+}
+.inner__round__thing span:nth-child(24) {
+  --rotate: calc(360 / 39 * 23);
+}
+.inner__round__thing span:nth-child(25) {
+  --rotate: calc(360 / 39 * 24);
+}
+.inner__round__thing span:nth-child(26) {
+  --rotate: calc(360 / 39 * 25);
+}
+.inner__round__thing span:nth-child(27) {
+  --rotate: calc(360 / 39 * 26);
+}
+.inner__round__thing span:nth-child(28) {
+  --rotate: calc(360 / 39 * 27);
+}
+.inner__round__thing span:nth-child(29) {
+  --rotate: calc(360 / 39 * 28);
+}
+.inner__round__thing span:nth-child(30) {
+  --rotate: calc(360 / 39 * 29);
+}
+.inner__round__thing span:nth-child(31) {
+  --rotate: calc(360 / 39 * 30);
+}
+.inner__round__thing span:nth-child(32) {
+  --rotate: calc(360 / 39 * 31);
+}
+.inner__round__thing span:nth-child(33) {
+  --rotate: calc(360 / 39 * 32);
+}
+.inner__round__thing span:nth-child(34) {
+  --rotate: calc(360 / 39 * 33);
+}
+.inner__round__thing span:nth-child(35) {
+  --rotate: calc(360 / 39 * 34);
+}
+.inner__round__thing span:nth-child(36) {
+  --rotate: calc(360 / 39 * 35);
+}
+.inner__round__thing span:nth-child(37) {
+  --rotate: calc(360 / 39 * 36);
+}
+.inner__round__thing span:nth-child(38) {
+  --rotate: calc(360 / 39 * 37);
+}
+.inner__round__thing span:nth-child(39) {
+  --rotate: calc(360 / 39 * 38);
+}
 
 @media screen and (max-width: 1370px) {
-  .our__story > span{
+  .our__story > span {
     font-size: 1.05rem;
   }
-  
 }
 
 @media screen and (max-width: 1310px) {
-  .our__story > span{
+  .our__story > span {
     font-size: 1rem;
   }
-  
 }
 
 @media screen and (max-width: 1123px) {
-  .our__story > span{
+  .our__story > span {
     font-size: 0.9rem;
   }
-  
 }
 
 @media screen and (max-width: 932px) {
   .entire__thing {
     display: none;
   }
-  .our__story > span{
+  .our__story > span {
     font-size: 1rem;
     width: 93%;
   }
@@ -215,8 +290,15 @@
   .entire__thing {
     display: none;
   }
-  .our__story > span{
+  .our__story > span {
     font-size: 0.95rem;
     width: 93%;
   }
+}
+
+@media screen and (max-width: 480px) {
+  .entire__thing {
+    display: none;
+  }
+
 }

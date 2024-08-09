@@ -90,7 +90,7 @@ export default function Prices() {
             <div className={styles.below__text}>
               We offer curated options for simplicity, flexibility, and comprehensive coverage. Choose your perfect Plan today!
             </div>
-            <div className={styles.element} onClick={() => {
+            <div className={styles.mid__element} id="mid" onClick={() => {
               setData({
                 title: "Professional Plan",
                 perks: [
