@@ -616,3 +616,14 @@
     height: 2.7rem !important; */
   }
 }
+
+.disclaimer {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: "Gilmer Light";
+  font-size: 15.5px;
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  top: 6rem;
+}

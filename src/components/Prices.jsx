@@ -61,7 +61,6 @@ export default function Prices() {
                   "Regression",
                   "Classification",
                   "All Textual Tasks",
-                  "Chatbot Creation"
                 ],
                 price: "$6",
               })
@@ -74,7 +73,7 @@ export default function Prices() {
                   "35 GB Storage",
                   "35 CPU Hours",
                   "Features in Individual Plan",
-                  "Image Classification",
+                  "Chatbot Creation"
                 ],
                 price: "$12",
               })
@@ -110,9 +109,9 @@ export default function Prices() {
                 title: "Basic Plan",
                 perks: [
                   "50 GB Storage",
-                  "75 CPU Hours",
+                  "70 CPU Hours",
                   "Features in Researcher Plan",
-                  "Text to Speech",
+                  "Image Classification",
                 ],
                 price: "$30",
               })
@@ -126,13 +125,16 @@ export default function Prices() {
                   "75 GPU Hours",
                   "12 GB GPU RAM",
                   "Features in Basic Plan",
-                  "Text to Speech",
+                  "Anomaly Detection",
                 ],
                 price: "$100",
               })
               setShow(true)
             }}>Standard Plan</div>
           </div>
+        </div>
+        <div className={styles.disclaimer}>
+            * Users signing up before 31st August 2024 will be able to avail all the features in their free trial.
         </div>
       </div>
     </>
