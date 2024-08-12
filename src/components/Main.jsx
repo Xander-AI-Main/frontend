@@ -95,14 +95,13 @@ export default function Main() {
                         document.getElementById("our").scrollIntoView({ behavior: 'smooth' })
                     }}>Our Story</div>
                     <div className={styles.normal} onClick={() => {
-                        // document.getElementById("footer").scrollIntoView({ behavior: 'smooth' })
                         navigate('/contactus')
                     }}>Contact Us</div>
                     <div className={styles.normal} onClick={() => {
-                        setShow(!show)
+                        window.location.assign("https://platform.xanderco.in")
                     }}>Signup</div>
                     <div className={styles.mobilesignup} onClick={() => {
-                        setShow(!show)
+                        window.location.assign("https://platform.xanderco.in")
                     }}>Signup</div>
                 </div>
                 <div className={styles.main__content}>
