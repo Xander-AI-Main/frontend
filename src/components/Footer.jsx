@@ -24,7 +24,7 @@ export default function Footer() {
           <div className={styles.social_section}>
             <span>SOCIALIZE WITH XANDER</span>
             <div className={styles.social_icons}>
-              <a href="https://mail.zoho.in/zm/#mail/folder/inbox" className={styles.social_icon}><i className="fas fa-envelope "></i></a>
+              <a href="mailto:main@xanderco.in" className={styles.social_icon}><i className="fas fa-envelope "></i></a>
               <a href="https://x.com/corp_xander" className={styles.social_icon}><i className="fab fa-twitter"></i></a>
               <a href="https://www.linkedin.com/company/xander-corp01/" className={styles.social_icon}><i className="fab fa-linkedin-in"></i></a>
               <a href="https://www.instagram.com/xander__ai/" className={styles.social_icon}><i className="fab fa-instagram"></i></a>
