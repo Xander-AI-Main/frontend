@@ -11,6 +11,7 @@ export default function Main() {
     const [email, setEmail] = useState("")
     const [plan, setPlan] = useState("Select plan")
     const navigate = useNavigate()
+
     async function storeData () {
         if(name !== "" && email !== "" && plan !== "Select plan") {
             await axios.post("https://7b7h6wl8o9.execute-api.us-east-1.amazonaws.com/add-user", {
@@ -111,7 +112,7 @@ export default function Main() {
                             <span className={styles.gradient}>Tech!</span>
                         </div>
                         <div className={styles.lower__text}>
-                            Say goodbye to technical headaches – from data preprocessing to model deployment, we automate everything. No tech skills? No problem. Embrace the future of AI with simplicity and ease.
+                            Say goodbye to technical headaches – from data preprocessing to model deployment, we automate everything. No tech skills? No problem. Embrace the future of AI with our no code platform.
                         </div>
                         <div className={styles.explore__now} onClick={() => {
                         document.getElementById("services").scrollIntoView({ behavior: 'smooth' })
