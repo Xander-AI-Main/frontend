@@ -159,7 +159,7 @@ export default function Prices() {
               <span className={styles.details}>Anomaly Detection</span>
             </div>
             <div className={styles.price__style}>
-              <span className={styles.price__header}>Subscribe for</span>
+              {/* <span className={styles.price__header}>Subscribe for</span> */}
               <div className={styles.main__price}>
                 <span className={styles.price}>$0</span>
                 <span className={styles.time}> / month</span>
@@ -325,7 +325,7 @@ export default function Prices() {
           <div className={styles.gradient__end}></div>
         </div>
         <div className={styles.disclaimer}>
-            * Users signing up before 31st August 2024 will be able to avail all the features in their free trial.
+            * Users signing up before 7th September 2024 will be able to avail all the features in their free trial.
         </div>
       </div>
     </>

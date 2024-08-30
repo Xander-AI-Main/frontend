@@ -92,9 +92,10 @@ export default function Main() {
                         </div>
                     </div>
                     <div className={styles.normal} onClick={() => {
-                        navigate('/')
-                        document.getElementById("our").scrollIntoView({ behavior: 'smooth' })
-                    }}>Our Story</div>
+                        // navigate('/')
+                        // document.getElementById("our").scrollIntoView({ behavior: 'smooth' })
+                        window.location.assign("https://platform.xanderco.in/contests")
+                    }}>Contests</div>
                     <div className={styles.normal} onClick={() => {
                         navigate('/contactus')
                     }}>Contact Us</div>
