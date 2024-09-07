@@ -325,7 +325,7 @@ export default function Prices() {
           <div className={styles.gradient__end}></div>
         </div>
         <div className={styles.disclaimer}>
-            * Users signing up before 7th September 2024 will be able to avail all the features in their free trial.
+            * Users signing up before 14th September 2024 will be able to avail all the features in their free trial.
         </div>
       </div>
     </>
