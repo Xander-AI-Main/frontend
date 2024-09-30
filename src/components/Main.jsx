@@ -113,7 +113,7 @@ export default function Main() {
                             <span className={styles.gradient}>Tech!</span>
                         </div>
                         <div className={styles.lower__text}>
-                            Say goodbye to technical headaches – from data preprocessing to model deployment, we automate everything. No tech skills? No problem. Embrace the future of AI with our no code platform.
+                            Build and deploy AI models without writing a single line of code. From data preprocessing to model deployment, we handle it all—no tech skills required. Unlock the power of AI with our seamless, no-code platform.
                         </div>
                         <div className={styles.explore__now} onClick={() => {
                         document.getElementById("services").scrollIntoView({ behavior: 'smooth' })

@@ -225,7 +225,7 @@
 
 .lower__text {
   font-family: "Gilmer Light";
-  font-size: 18px;
+  font-size: 17px;
   color: #fff;
 
   @media screen and (max-width: 768px) {
@@ -291,7 +291,7 @@
   margin-left: 6rem;
   margin-top: 7rem;
   height: 56vh;
-  width: 40%;
+  width: 41%;
   position: relative;
   flex-wrap: nowrap;
 
