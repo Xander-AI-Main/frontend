@@ -636,6 +636,10 @@
   justify-content: space-between;
   margin-top: 4rem;
   margin-left: 5rem;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .current__pricing {
