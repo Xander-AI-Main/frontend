@@ -630,7 +630,7 @@
 
 
 .all__pricing {
-  width: 94%;
+  width: 80rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
